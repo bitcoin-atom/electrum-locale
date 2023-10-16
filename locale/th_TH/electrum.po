@@ -661,20 +661,20 @@ msgid "BIP70 invoice saved as {}"
 msgstr "ใบแจ้งหนี้ BIP70 บันทึกเป็น {}"
 
 #: electrum/gui/qt/history_list.py:655
-msgid "BTC Fiat price"
-msgstr "ราคา BTC"
+msgid "BCA Fiat price"
+msgstr "ราคา BCA"
 
 #: electrum/gui/qt/history_list.py:651
-msgid "BTC balance"
-msgstr "จำนวน BTC คงเหลือ"
+msgid "BCA balance"
+msgstr "จำนวน BCA คงเหลือ"
 
 #: electrum/gui/qt/history_list.py:672
-msgid "BTC incoming"
-msgstr "รับ BTC"
+msgid "BCA incoming"
+msgstr "รับ BCA"
 
 #: electrum/gui/qt/history_list.py:676
-msgid "BTC outgoing"
-msgstr "ส่ง BTC"
+msgid "BCA outgoing"
+msgstr "ส่ง BCA"
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
 #: electrum/gui/qt/installwizard.py:164
@@ -6521,7 +6521,7 @@ msgstr ""
 #: electrum/network.py:1113
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mBCA and BCA."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588

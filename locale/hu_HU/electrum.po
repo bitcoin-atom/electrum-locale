@@ -664,20 +664,20 @@ msgid "BIP70 invoice saved as {}"
 msgstr "BIP70 számla mentve mint {}"
 
 #: electrum/gui/qt/history_list.py:655
-msgid "BTC Fiat price"
-msgstr "BTC Fiat ár"
+msgid "BCA Fiat price"
+msgstr "BCA Fiat ár"
 
 #: electrum/gui/qt/history_list.py:651
-msgid "BTC balance"
-msgstr "BTC egyenleg"
+msgid "BCA balance"
+msgstr "BCA egyenleg"
 
 #: electrum/gui/qt/history_list.py:672
-msgid "BTC incoming"
-msgstr "Beérkező BTC"
+msgid "BCA incoming"
+msgstr "Beérkező BCA"
 
 #: electrum/gui/qt/history_list.py:676
-msgid "BTC outgoing"
-msgstr "Kimenő BTC"
+msgid "BCA outgoing"
+msgstr "Kimenő BCA"
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
 #: electrum/gui/qt/installwizard.py:164
@@ -6550,10 +6550,10 @@ msgstr "A tranzakció már szerepel az előzményeknél vagy még nincs aláírv
 #: electrum/network.py:1113
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mBCA and BCA."
 msgstr "A tranzakció nem küldhető ki, maradékos kimenetek miatt.\n"
 "Valamelyik kimenet túl alacsony összegű, valószínűleg kevesebb mint 1000 satoshi.\n"
-"Ellenőrizd a mértékegységeket, esetleg összekeverhetted pl. a BTC-t és mBTC-t."
+"Ellenőrizd a mértékegységeket, esetleg összekeverhetted pl. a BCA-t és mBCA-t."
 
 #: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588
 msgid "Transaction could not be saved."

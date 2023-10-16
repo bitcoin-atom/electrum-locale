@@ -661,20 +661,20 @@ msgid "BIP70 invoice saved as {}"
 msgstr "BIP70の請求書は{}として保存されました"
 
 #: electrum/gui/qt/history_list.py:655
-msgid "BTC Fiat price"
-msgstr "BTCの法定通貨の価格"
+msgid "BCA Fiat price"
+msgstr "BCAの法定通貨の価格"
 
 #: electrum/gui/qt/history_list.py:651
-msgid "BTC balance"
-msgstr "BTC残高"
+msgid "BCA balance"
+msgstr "BCA残高"
 
 #: electrum/gui/qt/history_list.py:672
-msgid "BTC incoming"
-msgstr "入金BTC"
+msgid "BCA incoming"
+msgstr "入金BCA"
 
 #: electrum/gui/qt/history_list.py:676
-msgid "BTC outgoing"
-msgstr "出金BTC"
+msgid "BCA outgoing"
+msgstr "出金BCA"
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
 #: electrum/gui/qt/installwizard.py:164
@@ -6537,10 +6537,10 @@ msgstr ""
 #: electrum/network.py:1113
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mBCA and BCA."
 msgstr "トランザクションはダストアウトプットのためにブロードキャストすることができませんでした。\n"
 "一部のアウトプットの値が小さすぎます（おそらく1000サトシ未満でしょう）。\n"
-"単位を混乱してないことを確認してください。例えばmBTCとBTCなど。"
+"単位を混乱してないことを確認してください。例えばmBCAとBCAなど。"
 
 #: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588
 msgid "Transaction could not be saved."

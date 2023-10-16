@@ -661,20 +661,20 @@ msgid "BIP70 invoice saved as {}"
 msgstr "BIP70 ඉන්වොයිසිය {} ලෙස සුරකින ලදී"
 
 #: electrum/gui/qt/history_list.py:655
-msgid "BTC Fiat price"
-msgstr "BTC Fiat මිල"
+msgid "BCA Fiat price"
+msgstr "BCA Fiat මිල"
 
 #: electrum/gui/qt/history_list.py:651
-msgid "BTC balance"
-msgstr "BTC ශේෂය"
+msgid "BCA balance"
+msgstr "BCA ශේෂය"
 
 #: electrum/gui/qt/history_list.py:672
-msgid "BTC incoming"
-msgstr "BTC එන"
+msgid "BCA incoming"
+msgstr "BCA එන"
 
 #: electrum/gui/qt/history_list.py:676
-msgid "BTC outgoing"
-msgstr "BTC පිටතට යන"
+msgid "BCA outgoing"
+msgstr "BCA පිටතට යන"
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
 #: electrum/gui/qt/installwizard.py:164
@@ -6537,10 +6537,10 @@ msgstr ""
 #: electrum/network.py:1113
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mBCA and BCA."
 msgstr "දූවිලි නිමැවුම් හේතුවෙන් ගනුදෙනුව විකාශනය කළ නොහැක.\n"
 "සමහර නිමැවුම් වල අගය ඉතා කුඩාය, සමහරවිට satoshis 1000 ට වඩා අඩුය.\n"
-"ඒකක පරීක්ෂා කරන්න, ඔබ ව්‍යාකූල වී නැති බවට වග බලා ගන්න උදා. mBTC සහ BTC."
+"ඒකක පරීක්ෂා කරන්න, ඔබ ව්‍යාකූල වී නැති බවට වග බලා ගන්න උදා. mBCA සහ BCA."
 
 #: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588
 msgid "Transaction could not be saved."

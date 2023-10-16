@@ -661,20 +661,20 @@ msgid "BIP70 invoice saved as {}"
 msgstr "Factura BIP70 guardada como {}"
 
 #: electrum/gui/qt/history_list.py:655
-msgid "BTC Fiat price"
-msgstr "Precio fiat BTC"
+msgid "BCA Fiat price"
+msgstr "Precio fiat BCA"
 
 #: electrum/gui/qt/history_list.py:651
-msgid "BTC balance"
-msgstr "Balance BTC"
+msgid "BCA balance"
+msgstr "Balance BCA"
 
 #: electrum/gui/qt/history_list.py:672
-msgid "BTC incoming"
-msgstr "Ganancia BTC"
+msgid "BCA incoming"
+msgstr "Ganancia BCA"
 
 #: electrum/gui/qt/history_list.py:676
-msgid "BTC outgoing"
-msgstr "Pérdida BTC"
+msgid "BCA outgoing"
+msgstr "Pérdida BCA"
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
 #: electrum/gui/qt/installwizard.py:164
@@ -6547,10 +6547,10 @@ msgstr ""
 #: electrum/network.py:1113
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mBCA and BCA."
 msgstr "La transacción no se pudo transmitir debido a las salidas de polvo.\n"
 "Algunas de las salidas tienen un valor demasiado pequeño, probablemente inferior a 1000 satoshis.\n"
-"Compruebe las unidades, asegúrese de no haber confundido, p. ej. mBTC y BTC."
+"Compruebe las unidades, asegúrese de no haber confundido, p. ej. mBCA y BCA."
 
 #: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588
 msgid "Transaction could not be saved."

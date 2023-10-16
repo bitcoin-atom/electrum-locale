@@ -664,20 +664,20 @@ msgid "BIP70 invoice saved as {}"
 msgstr "BIP70发票已被保存到{}"
 
 #: electrum/gui/qt/history_list.py:655
-msgid "BTC Fiat price"
-msgstr "BTC法币价格"
+msgid "BCA Fiat price"
+msgstr "BCA法币价格"
 
 #: electrum/gui/qt/history_list.py:651
-msgid "BTC balance"
-msgstr "BTC余额"
+msgid "BCA balance"
+msgstr "BCA余额"
 
 #: electrum/gui/qt/history_list.py:672
-msgid "BTC incoming"
-msgstr "BTC流入"
+msgid "BCA incoming"
+msgstr "BCA流入"
 
 #: electrum/gui/qt/history_list.py:676
-msgid "BTC outgoing"
-msgstr "BTC流出"
+msgid "BCA outgoing"
+msgstr "BCA流出"
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
 #: electrum/gui/qt/installwizard.py:164
@@ -6550,10 +6550,10 @@ msgstr "交易已在历史记录中，或者尚未被签名。"
 #: electrum/network.py:1113
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mBCA and BCA."
 msgstr "交易因为尘额输出而无法被广播。\n"
 "有些输出的数额太小了，大概是比1000聪还小。\n"
-"请检查单位，确保你没有混淆单位，比如mBTC和BTC。"
+"请检查单位，确保你没有混淆单位，比如mBCA和BCA。"
 
 #: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588
 msgid "Transaction could not be saved."

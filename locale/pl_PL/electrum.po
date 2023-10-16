@@ -662,19 +662,19 @@ msgid "BIP70 invoice saved as {}"
 msgstr "Rachunek BIP70 zapisany jako {}"
 
 #: electrum/gui/qt/history_list.py:655
-msgid "BTC Fiat price"
+msgid "BCA Fiat price"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:651
-msgid "BTC balance"
+msgid "BCA balance"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:672
-msgid "BTC incoming"
+msgid "BCA incoming"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:676
-msgid "BTC outgoing"
+msgid "BCA outgoing"
 msgstr ""
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
@@ -3093,7 +3093,7 @@ msgstr ""
 
 #: electrum/gui/qt/main_window.py:2305
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
-msgstr "Absolutnie nie używaj usług typu \"wypłacanie BTC z kluczy prywatnych\" oferowanych przez osoby trzecie."
+msgstr "Absolutnie nie używaj usług typu \"wypłacanie BCA z kluczy prywatnych\" oferowanych przez osoby trzecie."
 
 #: electrum/invoices.py:53
 msgid "In progress"
@@ -6520,7 +6520,7 @@ msgstr ""
 #: electrum/network.py:1113
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mBCA and BCA."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588
