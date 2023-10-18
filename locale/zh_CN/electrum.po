@@ -38,7 +38,7 @@ msgid "&Addresses"
 msgstr "地址(&A)"
 
 #: electrum/gui/qt/main_window.py:748
-msgid "&Bitcoin Paper"
+msgid "&Bitcoin Atom Paper"
 msgstr "比特币白皮书(&B)"
 
 #: electrum/gui/qt/main_window.py:743
@@ -283,8 +283,8 @@ msgid "About"
 msgstr "关于"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:4
-msgid "About Electrum"
-msgstr "关于 Electrum"
+msgid "About Electrum Atom"
+msgstr "关于 Electrum Atom"
 
 #: electrum/plugins/trustedcoin/qt.py:256
 msgid "Accept"
@@ -318,10 +318,10 @@ msgstr "添加联署人"
 #: electrum/gui/messages.py:12
 msgid "Add extra data to your channel funding transactions, so that a static backup can be recovered from your seed.\n\n"
 "Note that static backups only allow you to request a force-close with the remote node. This assumes that the remote node is still online, did not lose its data, and accepts to force close the channel.\n\n"
-"If this is enabled, other nodes cannot open a channel to you. Channel recovery data is encrypted, so that only your wallet can decrypt it. However, blockchain analysis will be able to tell that the transaction was probably created by Electrum."
+"If this is enabled, other nodes cannot open a channel to you. Channel recovery data is encrypted, so that only your wallet can decrypt it. However, blockchain analysis will be able to tell that the transaction was probably created by Electrum Atom."
 msgstr "在您的通道入资交易中加入额外的数据，这样就可以从您的密语种子中恢复出一个静态的备份。\n\n"
 "注意，静态通道备份只是让您可以用它来请求远端节点强制关闭通道。这假定远端节点仍然在线，且没有丢失数据，而且接受强制关闭请求。\n\n"
-"启用这个功能后，其他节点将不能向您打开通道。通道恢复数据经过加密，只有您的钱包可以将其解密。然而，区块链分析能够鉴别出这笔交易可能是由Electrum创建的。"
+"启用这个功能后，其他节点将不能向您打开通道。通道恢复数据经过加密，只有您的钱包可以将其解密。然而，区块链分析能够鉴别出这笔交易可能是由Electrum Atom创建的。"
 
 #: electrum/gui/qt/receive_tab.py:153
 msgid "Add lightning requests to bitcoin URIs"
@@ -408,7 +408,7 @@ msgstr "高级设置"
 
 #: electrum/plugins/keepkey/qt.py:385 electrum/plugins/safe_t/qt.py:261
 #: electrum/plugins/trezor/qt.py:527
-msgid "After disabling passphrases, you can only pair this Electrum wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
+msgid "After disabling passphrases, you can only pair this Electrum Atom wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
 msgstr "禁用附加密码后，您只能使用空白的附加密码与硬件钱包配对。如果您设置的附加密码不为空，则需要使用安装向导重新创建新的钱包来完成配对。 您可以随时重新启用附加密码，输入原先的附加密码即可重新使用这个附加密码对应的钱包。"
 
 #: electrum/gui/qt/channels_list.py:152
@@ -652,8 +652,8 @@ msgid "BIP39 seed"
 msgstr "BIP39 种子"
 
 #: electrum/gui/qt/seed_dialog.py:96
-msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "Electrum可以导入BIP39种子，以便用户找回困在其他钱包中的资金。"
+msgid "BIP39 seeds can be imported in Electrum Atom, so that users can access funds locked in other wallets."
+msgstr "Electrum Atom可以导入BIP39种子，以便用户找回困在其他钱包中的资金。"
 
 #: electrum/gui/qt/seed_dialog.py:98
 msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
@@ -733,8 +733,8 @@ msgid "Batch unconfirmed transactions"
 msgstr "整合未确认交易为批量交易"
 
 #: electrum/gui/qt/main_window.py:792
-msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
-msgstr "在报告Bug之前，请把Electrum升级到最新版，并把版本号写在错误报告里。"
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum Atom (latest release or git HEAD), and include the version number in your report."
+msgstr "在报告Bug之前，请把Electrum Atom升级到最新版，并把版本号写在错误报告里。"
 
 #: electrum/gui/qt/history_list.py:644
 msgid "Begin"
@@ -753,16 +753,16 @@ msgid "BitBox02 Status"
 msgstr "BitBox02状态"
 
 #: electrum/gui/qt/send_tab.py:620
-msgid "Bitcoin Address is None"
+msgid "Bitcoin Atom Address is None"
 msgstr "比特币地址为空"
 
 #: electrum/gui/qt/receive_tab.py:215 electrum/gui/qt/receive_tab.py:291
 #: electrum/gui/qt/request_list.py:203
-msgid "Bitcoin URI"
+msgid "Bitcoin Atom URI"
 msgstr "比特币 URI"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:684
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgid "Bitcoin Atom transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "在一般情况下，比特币交易不是免费的。比特币的发送者需要支付一定的手续费。"
 
 #: electrum/gui/qt/locktimeedit.py:38
@@ -1072,8 +1072,8 @@ msgid "Channels in database."
 msgstr "数据库中的通道。"
 
 #: electrum/gui/qt/settings_dialog.py:136
-msgid "Check our online documentation if you want to configure Electrum as a watchtower."
-msgstr "如果你想要把Electrum配置为监视塔，请检查我们的在线文档。"
+msgid "Check our online documentation if you want to configure Electrum Atom as a watchtower."
+msgstr "如果你想要把Electrum Atom配置为监视塔，请检查我们的在线文档。"
 
 #: electrum/plugins/trustedcoin/qt.py:320
 msgid "Check this box to request a new secret. You will need to retype your seed."
@@ -1483,16 +1483,16 @@ msgid "Connection strings must be in <node_pubkey>@<host>:<port> format"
 msgstr "连接字符串必须符合格式 <节点公钥>@<主机>:<端口>"
 
 #: electrum/gui/kivy/main.kv:445
-msgid "Connections with Electrum servers"
-msgstr "Electrum服务器连接"
+msgid "Connections with Electrum Atom servers"
+msgstr "Electrum Atom服务器连接"
 
 #: electrum/gui/kivy/uix/ui_screens/lightning.kv:16
 msgid "Connections with lightning nodes"
 msgstr "与闪电网络节点的连接"
 
 #: electrum/network.py:215 electrum/network.py:223 electrum/network.py:231
-msgid "Consider trying to connect to a different server, or updating Electrum."
-msgstr "请考虑换一个服务器再连接，或者升级Electrum。"
+msgid "Consider trying to connect to a different server, or updating Electrum Atom."
+msgstr "请考虑换一个服务器再连接，或者升级Electrum Atom。"
 
 #: electrum/gui/text.py:102
 msgid "Contacts"
@@ -1853,7 +1853,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "设备通讯错误。请拔出并重新插入你的硬件钱包。"
 
 #: electrum/plugins/ledger/ledger.py:872
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Bitcoin Atom mode"
 msgstr "设备不在比特币模式"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1892,8 +1892,8 @@ msgid "Display your seed?"
 msgstr "要显示您的密语种子吗？"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
-msgid "Distributed by Electrum Technologies GmbH"
-msgstr "由Electrum Technologies GmbH分发"
+msgid "Distributed by Electrum Atom Technologies GmbH"
+msgstr "由Electrum Atom Technologies GmbH分发"
 
 #: electrum/base_crash_reporter.py:65
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
@@ -1980,8 +1980,8 @@ msgid "Downloading input data..."
 msgstr "正在下载输入数据..."
 
 #: electrum/gui/qt/installwizard.py:56
-msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
-msgstr "旧版本的Electrum存在一个Bug，不会创建与新版本或其他软件相同的钱包。"
+msgid "Due to a bug, old versions of Electrum Atom will NOT be creating the same wallet as newer versions or other software."
+msgstr "旧版本的Electrum Atom存在一个Bug，不会创建与新版本或其他软件相同的钱包。"
 
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:577
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
@@ -2020,80 +2020,80 @@ msgid "Edit {}"
 msgstr "编辑 {}"
 
 #: electrum/gui/qt/seed_dialog.py:74
-msgid "Electrum"
+msgid "Electrum Atom"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2599
-msgid "Electrum Plugins"
-msgstr "Electrum 插件"
+msgid "Electrum Atom Plugins"
+msgstr "Electrum Atom 插件"
 
 #: electrum/plugin.py:588
-msgid "Electrum cannot pair with your {}.\n\n"
+msgid "Electrum Atom cannot pair with your {}.\n\n"
 "Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
-msgstr "Electrum无法和您的 {} 配对\n\n"
+msgstr "Electrum Atom无法和您的 {} 配对\n\n"
 "。在您使用钱包请求付款之前，请确认您可以和您的硬件钱包配对，以及助记词种子已经被妥善保管（以及附加密码，如果有附加密码的话）。否则，您收到的所有比特币将无法使用。"
 
 #: electrum/gui/qt/installwizard.py:733
 #: electrum/gui/kivy/uix/ui_screens/first_screen.kv:16
-msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Electrum 与远程服务器通讯以获取您的交易记录和地址信息。这些服务器都能实现相同的功能，只是硬件条件各有不同。在大多数情况下，你只需要让 Electrum 随便挑一个节点，如果你有一个偏好设置，随时都可以手动选择服务器。"
+msgid "Electrum Atom communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum Atom pick one at random.  However if you prefer feel free to select a server manually."
+msgstr "Electrum Atom 与远程服务器通讯以获取您的交易记录和地址信息。这些服务器都能实现相同的功能，只是硬件条件各有不同。在大多数情况下，你只需要让 Electrum Atom 随便挑一个节点，如果你有一个偏好设置，随时都可以手动选择服务器。"
 
 #: electrum/gui/qt/network_dialog.py:271
-msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
-msgstr "Electrum 会连接数个节点以下载区块头并找出最长的区块链。"
+msgid "Electrum Atom connects to several nodes in order to download block headers and find out the longest blockchain."
+msgstr "Electrum Atom 会连接数个节点以下载区块头并找出最长的区块链。"
 
 #: electrum/gui/qt/main_window.py:722
-msgid "Electrum preferences"
-msgstr "Electrum 偏好设置"
+msgid "Electrum Atom preferences"
+msgstr "Electrum Atom 偏好设置"
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:9
-msgid "Electrum requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
-msgstr "Electrum会向一个服务器查询您的交易历史记录。取回的记录会通过简单支付验证（SPV）和其他节点提供的区块头进行检查。"
+msgid "Electrum Atom requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
+msgstr "Electrum Atom会向一个服务器查询您的交易历史记录。取回的记录会通过简单支付验证（SPV）和其他节点提供的区块头进行检查。"
 
 #: electrum/gui/qt/network_dialog.py:293
-msgid "Electrum sends your wallet addresses to a single server, in order to receive your transaction history."
-msgstr "Electrum 通过把您的钱包地址发送到一台服务器来获得您的交易记录。"
+msgid "Electrum Atom sends your wallet addresses to a single server, in order to receive your transaction history."
+msgstr "Electrum Atom 通过把您的钱包地址发送到一台服务器来获得您的交易记录。"
 
 #: electrum/gui/messages.py:44
-msgid "Electrum uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
-msgstr "Electrum使用静态通道备份。如果您丢失了钱包文件，您将需要请求远端节点强制关闭通道来恢复您的资金。这假定远端节点仍然可以被联系到，而且没有丢失其自身数据。"
+msgid "Electrum Atom uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
+msgstr "Electrum Atom使用静态通道备份。如果您丢失了钱包文件，您将需要请求远端节点强制关闭通道来恢复您的资金。这假定远端节点仍然可以被联系到，而且没有丢失其自身数据。"
 
 #: electrum/gui/qt/installwizard.py:239
-msgid "Electrum wallet"
-msgstr "Electrum钱包"
+msgid "Electrum Atom wallet"
+msgstr "Electrum Atom钱包"
 
 #: electrum/gui/qt/main_window.py:624
-msgid "Electrum was unable to copy your wallet file to the specified location."
-msgstr "Electrum 不能把您的钱包文件复制到指定的位置。"
+msgid "Electrum Atom was unable to copy your wallet file to the specified location."
+msgstr "Electrum Atom 不能把您的钱包文件复制到指定的位置。"
 
 #: electrum/plugins/cosigner_pool/qt.py:274
 #: electrum/gui/qt/transaction_dialog.py:386
-msgid "Electrum was unable to deserialize the transaction:"
-msgstr "Electrum 无法解析这个交易记录："
+msgid "Electrum Atom was unable to deserialize the transaction:"
+msgstr "Electrum Atom 无法解析这个交易记录："
 
 #: electrum/gui/qt/main_window.py:2211
-msgid "Electrum was unable to open your transaction file"
-msgstr "Electrum 无法打开您的交易文件"
+msgid "Electrum Atom was unable to open your transaction file"
+msgstr "Electrum Atom 无法打开您的交易文件"
 
 #: electrum/gui/qt/main_window.py:2160
-msgid "Electrum was unable to parse your transaction"
-msgstr "Electrum 无法解析您的交易"
+msgid "Electrum Atom was unable to parse your transaction"
+msgstr "Electrum Atom 无法解析您的交易"
 
 #: electrum/gui/qt/main_window.py:2370
-msgid "Electrum was unable to produce a private key-export."
-msgstr "Electrum 无法导出私钥。"
+msgid "Electrum Atom was unable to produce a private key-export."
+msgstr "Electrum Atom 无法导出私钥。"
 
 #: electrum/gui/qt/history_list.py:859
-msgid "Electrum was unable to produce a transaction export."
-msgstr "Electrum 无法导出交易记录。"
+msgid "Electrum Atom was unable to produce a transaction export."
+msgstr "Electrum Atom 无法导出交易记录。"
 
 #: electrum/gui/qt/main_window.py:2801
-msgid "Electrum will now exit."
-msgstr "Electrum即将退出。"
+msgid "Electrum Atom will now exit."
+msgstr "Electrum Atom即将退出。"
 
 #: electrum/gui/qt/main_window.py:766
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
-msgstr "Electrum的特点是速度, 低内存使用率以及便捷比特币。"
+msgid "Electrum Atom's focus is speed, with low resource usage and simplifying Bitcoin Atom."
+msgstr "Electrum Atom的特点是速度, 低内存使用率以及便捷比特币。"
 
 #: electrum/gui/qt/main_window.py:1838
 msgid "Enable"
@@ -2235,7 +2235,7 @@ msgid "Enter a label to name your device:"
 msgstr "输入一个标签来命名你的设备："
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Bitcoin Atom addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "在列表中输入比特币地址（这将创建一个仅供监视的钱包），或者私钥。"
 
 #: electrum/gui/qt/send_tab.py:789
@@ -2479,8 +2479,8 @@ msgid "Estimate"
 msgstr "估计"
 
 #: electrum/gui/qt/__init__.py:210
-msgid "Exit Electrum"
-msgstr "退出 Electrum"
+msgid "Exit Electrum Atom"
+msgstr "退出 Electrum Atom"
 
 #: electrum/gui/kivy/uix/screens.py:592
 msgid "Expiration date"
@@ -2666,8 +2666,8 @@ msgid "Firmware Version"
 msgstr "固件版本"
 
 #: electrum/plugins/ledger/ledger.py:57
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "固件版本（或者说\"Bitcoin\"这个app）太旧，不能支持隔离见证。请更新"
+msgid "Firmware version (or \"Bitcoin Atom\" app) too old for Segwit support. Please update at"
+msgstr "固件版本（或者说\"Bitcoin Atom\"这个app）太旧，不能支持隔离见证。请更新"
 
 #: electrum/plugins/trezor/qt.py:424
 msgid "Firmware version too old."
@@ -2711,8 +2711,8 @@ msgid "For scanning QR codes."
 msgstr "用于扫描二维码。"
 
 #: electrum/gui/qt/main_window.py:285
-msgid "For security reasons we advise that you always use the latest version of Electrum."
-msgstr "出于安全方面的考虑，我们建议您保持使用最新版的Electrum。"
+msgid "For security reasons we advise that you always use the latest version of Electrum Atom."
+msgstr "出于安全方面的考虑，我们建议您保持使用最新版的Electrum Atom。"
 
 #: electrum/gui/qt/channels_list.py:273
 msgid "Force-close"
@@ -2946,16 +2946,16 @@ msgstr "IP/端口格式：\n"
 "[主机]:[端口]"
 
 #: electrum/gui/qt/network_dialog.py:284
-msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain."
-msgstr "如果自动连接已启用，Electrum 将总是使用拥有最长的数据区块链的服务器。"
+msgid "If auto-connect is enabled, Electrum Atom will always use a server that is on the longest blockchain."
+msgstr "如果自动连接已启用，Electrum Atom 将总是使用拥有最长的数据区块链的服务器。"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:429
 msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
 msgstr "启用后，对每笔交易来说，最多可能因为这种操作消耗100聪。"
 
 #: electrum/gui/qt/network_dialog.py:285
-msgid "If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging."
-msgstr "如果不勾选此项，那您就必须手动选择要使用哪个服务器。 如果你的服务器滞后，Electrum会发出警告。"
+msgid "If it is disabled, you have to choose a server you want to use. Electrum Atom will warn you if your server is lagging."
+msgstr "如果不勾选此项，那您就必须手动选择要使用哪个服务器。 如果你的服务器滞后，Electrum Atom会发出警告。"
 
 #: electrum/gui/messages.py:20
 msgid "If this option is checked, your client will complete reverse swaps before the funding transaction is confirmed.\n\n"
@@ -3048,7 +3048,7 @@ msgstr "如果您启用了附加密码，请确保它是正确的。"
 
 #: electrum/gui/qt/receive_tab.py:348
 msgid "If you want to create new addresses, use a deterministic wallet instead."
-msgstr "如果您想创建新地址，请使用确定性钱包（如Electrum标准钱包）。"
+msgstr "如果您想创建新地址，请使用确定性钱包（如Electrum Atom标准钱包）。"
 
 #: electrum/base_wizard.py:337
 msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
@@ -3067,11 +3067,11 @@ msgid "Import"
 msgstr "导入"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
+msgid "Import Bitcoin Atom Addresses"
 msgstr "导入比特币地址"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Bitcoin Atom addresses or private keys"
 msgstr "导入比特币地址或私钥"
 
 #: electrum/gui/kivy/main_window.py:1465
@@ -3124,8 +3124,8 @@ msgstr "在某些情况下，可以使用最多3个找零地址，这可以把�
 
 #: electrum/gui/qt/channels_list.py:177
 #: electrum/gui/qml/qechanneldetails.py:232
-msgid "In the Electrum mobile app, use the 'Send' button to scan this QR code."
-msgstr "在Electrum移动应用中，点击 '发送' 按钮来扫描这个二维码。"
+msgid "In the Electrum Atom mobile app, use the 'Send' button to scan this QR code."
+msgstr "在Electrum Atom移动应用中，点击 '发送' 按钮来扫描这个二维码。"
 
 #: electrum/simple_config.py:554
 msgid "In the next block"
@@ -3235,15 +3235,15 @@ msgstr "金额无效"
 
 #: electrum/plugins/hw_wallet/plugin.py:129
 #: electrum/gui/kivy/uix/screens.py:361
-msgid "Invalid Bitcoin Address"
+msgid "Invalid Bitcoin Atom Address"
 msgstr "比特币地址无效"
 
 #: electrum/gui/stdio.py:186 electrum/gui/text.py:622
-msgid "Invalid Bitcoin address"
+msgid "Invalid Bitcoin Atom address"
 msgstr "比特币地址无效"
 
 #: electrum/gui/qt/main_window.py:2000 electrum/gui/qt/main_window.py:2028
-msgid "Invalid Bitcoin address."
+msgid "Invalid Bitcoin Atom address."
 msgstr "比特币地址无效。"
 
 #: electrum/gui/stdio.py:196
@@ -3568,8 +3568,8 @@ msgid "Lightning is not available for this wallet."
 msgstr "闪电网络对这个钱包不可用。"
 
 #: electrum/gui/qt/main_window.py:1754 electrum/gui/kivy/main_window.py:1510
-msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
-msgstr "因为这个钱包是用一个旧版本的Electrum创建的，所以闪电网络没有启用。要创建闪电网络密钥么？"
+msgid "Lightning is not enabled because this wallet was created with an old version of Electrum Atom. Create lightning keys?"
+msgstr "因为这个钱包是用一个旧版本的Electrum Atom创建的，所以闪电网络没有启用。要创建闪电网络密钥么？"
 
 #: electrum/gui/kivy/main_window.py:751
 msgid "Lightning is not enabled for this wallet"
@@ -3594,8 +3594,8 @@ msgstr "闪电网络支付需要在闪电网络中寻找路径。有路由方式
 "下载网络gossip将耗用可观的数据流量和存储空间，因此在移动设备上不推荐使用。如果使用蹦床路由，则您只能与蹦床节点打开通道。"
 
 #: electrum/gui/messages.py:40
-msgid "Lightning support in Electrum is experimental. Do not put large amounts in lightning channels."
-msgstr "Electrum的闪电网络支持是实验性的。不要在闪电网络通道里投入大额资金。"
+msgid "Lightning support in Electrum Atom is experimental. Do not put large amounts in lightning channels."
+msgstr "Electrum Atom的闪电网络支持是实验性的。不要在闪电网络通道里投入大额资金。"
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:35
 msgid "Lightning:"
@@ -3704,7 +3704,7 @@ msgid "Make sure you install it with python3"
 msgstr "请确保您使用了python3来安装它。"
 
 #: electrum/gui/qt/main_window.py:547
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoin Atoms to be sent to this wallet."
 msgstr "在您使用这个钱包请求付款之前，请再三确定您持有对应的密语种子或私钥。"
 
 #: electrum/plugins/coldcard/qt.py:136
@@ -4660,8 +4660,8 @@ msgid "Please report this issue manually"
 msgstr "请手动报告这个问题"
 
 #: electrum/gui/qt/main_window.py:2561
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "请重启 Electrum 以激活新的图形界面设置"
+msgid "Please restart Electrum Atom to activate the new GUI settings"
+msgstr "请重启 Electrum Atom 以激活新的图形界面设置"
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:1108
 msgid "Please retype your seed phrase, to confirm that you properly saved it"
@@ -4673,7 +4673,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "请将这{0} 个单词依次写在纸上（不要擅自打乱顺序、也不要重新排序）。 "
 
 #: electrum/gui/kivy/uix/screens.py:334
-msgid "Please scan a Bitcoin address or a payment request"
+msgid "Please scan a Bitcoin Atom address or a payment request"
 msgstr "请扫描比特币地址或支付请求"
 
 #: electrum/gui/qt/main_window.py:601
@@ -4710,8 +4710,8 @@ msgid "Please wait"
 msgstr "请稍后"
 
 #: electrum/gui/qt/update_checker.py:94
-msgid "Please wait while Electrum checks for available updates."
-msgstr "Electrum正在检查可用更新，请等待。"
+msgid "Please wait while Electrum Atom checks for available updates."
+msgstr "Electrum Atom正在检查可用更新，请等待。"
 
 #: electrum/gui/stdio.py:222 electrum/gui/qt/main_window.py:1138
 #: electrum/gui/qt/installwizard.py:168 electrum/gui/qt/installwizard.py:593
@@ -4889,8 +4889,8 @@ msgid "Proxy mode"
 msgstr "代理类型"
 
 #: electrum/gui/qt/network_dialog.py:260
-msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
-msgstr "代理设置适用于所有连接：使用Electrum服务器，也适用于第三方服务。"
+msgid "Proxy settings apply to all connections: with Electrum Atom servers, but also with third-party services."
+msgstr "代理设置适用于所有连接：使用Electrum Atom服务器，也适用于第三方服务。"
 
 #: electrum/gui/qt/network_dialog.py:236
 msgid "Proxy user"
@@ -5245,8 +5245,8 @@ msgid "SLIP39 seed"
 msgstr "SLIP39密语种子"
 
 #: electrum/gui/qt/seed_dialog.py:104
-msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "Electrum可以导入SLIP39密语种子，以便用户找回困在其他钱包中的资金。"
+msgid "SLIP39 seeds can be imported in Electrum Atom, so that users can access funds locked in other wallets."
+msgstr "Electrum Atom可以导入SLIP39密语种子，以便用户找回困在其他钱包中的资金。"
 
 #: electrum/gui/qt/seed_dialog.py:272
 msgid "SLIP39 share"
@@ -5281,8 +5281,8 @@ msgid "Save to file"
 msgstr "保存到文件"
 
 #: electrum/plugins/labels/__init__.py:5
-msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electrum."
-msgstr "将您的钱包标签保存在远程服务器上，并在使用Electrum的多个设备上同步它们。"
+msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electrum Atom."
+msgstr "将您的钱包标签保存在远程服务器上，并在使用Electrum Atom的多个设备上同步它们。"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:150
 msgid "Scan"
@@ -5540,7 +5540,7 @@ msgid "Share #{} is not part of the current set."
 msgstr "碎片 #{} 不是当前组合的一部分。"
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:232
-msgid "Share Bitcoin Request"
+msgid "Share Bitcoin Atom Request"
 msgstr "分享比特币付款请求"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
@@ -5708,8 +5708,8 @@ msgid "Some shares are invalid."
 msgstr "有些碎片是无效的。"
 
 #: electrum/base_crash_reporter.py:59
-msgid "Something went wrong while executing Electrum."
-msgstr "执行Electrum时出现错误。很抱歉。"
+msgid "Something went wrong while executing Electrum Atom."
+msgstr "执行Electrum Atom时出现错误。很抱歉。"
 
 #: electrum/base_crash_reporter.py:60
 msgid "Sorry!"
@@ -5740,8 +5740,8 @@ msgid "Standard wallet"
 msgstr "标准钱包"
 
 #: electrum/gui/qt/main_window.py:769
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
-msgstr "Electrum的重点是速度快, 具有较低的内存使用率和简化了比特币。启动时间是即时的因为他与高性能服务器相结合运作来处理比特币系统中最复杂的部分。"
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin Atom system."
+msgstr "Electrum Atom的重点是速度快, 具有较低的内存使用率和简化了比特币。启动时间是即时的因为他与高性能服务器相结合运作来处理比特币系统中最复杂的部分。"
 
 #: electrum/gui/qt/channel_details.py:187
 msgid "State"
@@ -5879,7 +5879,7 @@ msgid "Testnet coins are worthless."
 msgstr "测试网上的币是没有价值的。"
 
 #: electrum/gui/qt/main_window.py:564
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgid "Testnet is separate from the main Bitcoin Atom network. It is used for testing."
 msgstr "测试网是和比特币主网隔离的。它主要被用于测试。"
 
 #: electrum/gui/qt/main_window.py:1502
@@ -5960,10 +5960,10 @@ msgstr "通道对端可以路由蹦床支付。"
 #: electrum/gui/messages.py:34
 msgid "The channel you created is not recoverable from seed.\n"
 "To prevent fund losses, please save this backup on another device.\n"
-"It may be imported in another Electrum wallet with the same seed."
+"It may be imported in another Electrum Atom wallet with the same seed."
 msgstr "您创建的通道不可从密语种子中恢复。\n"
 "为了避免资金损失，请在另一台设备上保存这个备份。\n"
-"它可以被导入到另一个使用相同密语种子的Electrum钱包里。"
+"它可以被导入到另一个使用相同密语种子的Electrum Atom钱包里。"
 
 #: electrum/gui/qt/send_tab.py:98
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -6034,8 +6034,8 @@ msgid "The next step will generate the seed of your wallet.  This seed will NOT 
 msgstr "下一步会生成钱包的密语种子。这个密语种子不会被保存在您的计算机中，您必须把它抄在纸上。为了抵御恶意软件，您可以先在断网的计算机上进行这个操作，然后再把钱包移动到联网的计算机上。"
 
 #: electrum/gui/qt/main_window.py:1993
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "该操作未定义。不仅在Electrum里，其它场合也是如此。"
+msgid "The operation is undefined. Not just in Electrum Atom, but in general."
+msgstr "该操作未定义。不仅在Electrum Atom里，其它场合也是如此。"
 
 #: electrum/wallet.py:2182 electrum/wallet.py:2236
 msgid "The output value remaining after fee is too low."
@@ -6100,9 +6100,9 @@ msgid "The transaction was rejected because it is too large (in bytes)."
 msgstr "交易因字节数太多而被拒绝 (单位 字节)。"
 
 #: electrum/gui/qt/installwizard.py:367
-msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n\n"
+msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum Atom 2.7.\n\n"
 "Do you want to split your wallet into multiple files?"
-msgstr "Electrum自从2.7版以后已经不再支持帐户功能，而钱包'{}'却包含多个帐户。\n\n"
+msgstr "Electrum Atom自从2.7版以后已经不再支持帐户功能，而钱包'{}'却包含多个帐户。\n\n"
 "您想要把这个钱包分割成多个文件吗?"
 
 #: electrum/plugins/bitbox02/bitbox02.py:592
@@ -6268,7 +6268,7 @@ msgid "This may result in large QR codes"
 msgstr "这可能会产生大二维码"
 
 #: electrum/gui/qt/main_window.py:546
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend Bitcoin Atoms with it."
 msgstr "这意味着你无法把里面的比特币花出去。"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:428
@@ -6463,8 +6463,8 @@ msgid "To set the amount to 'max', use the '!' special character."
 msgstr "要把数额设置到 'max' （最大），请使用 '!' 这个特殊字符。"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:189
-msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
-msgstr "为了让您的交易隐私获得某种程度的提高，Electrum会在创建找零输出时尽量让它和其他输出具有类似的小数位数。"
+msgid "To somewhat protect your privacy, Electrum Atom tries to create change with similar precision to other outputs."
+msgstr "为了让您的交易隐私获得某种程度的提高，Electrum Atom会在创建找零输出时尽量让它和其他输出具有类似的小数位数。"
 
 #: electrum/base_wizard.py:335
 msgid "To trigger a rescan, press 'Next'."
@@ -6823,7 +6823,7 @@ msgid "Update check failed"
 msgstr "检查更新失败"
 
 #: electrum/gui/qt/main_window.py:295
-msgid "Update to Electrum {} is available"
+msgid "Update to Electrum Atom {} is available"
 msgstr "新版本 {} 可用"
 
 #: electrum/plugins/coldcard/qt.py:153
@@ -6993,8 +6993,8 @@ msgid "WARNING: the alias \"{}\" could not be validated via an additional securi
 msgstr "警告：别名“{}”无法通过额外的DNSSEC安全检查进行验证，因此可能不正确。"
 
 #: electrum/gui/qt/installwizard.py:46
-msgid "WIF keys are typed in Electrum, based on script type."
-msgstr "WIF私钥在Electrum钱包里是有不同的类别之分的，不同的前缀对应不同的脚本类型。"
+msgid "WIF keys are typed in Electrum Atom, based on script type."
+msgstr "WIF私钥在Electrum Atom钱包里是有不同的类别之分的，不同的前缀对应不同的脚本类型。"
 
 #: electrum/plugins/trustedcoin/qt.py:80
 msgid "Waiting for TrustedCoin server to sign transaction..."
@@ -7130,8 +7130,8 @@ msgid "Watchtower"
 msgstr "监视塔"
 
 #: electrum/gui/qt/seed_dialog.py:99
-msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
-msgstr "我们不能保证Electrum永远支持导入BIP39密语种子。"
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum Atom."
+msgstr "我们不能保证Electrum Atom永远支持导入BIP39密语种子。"
 
 #: electrum/base_wizard.py:368
 msgid "We encountered an error while connecting to your device:"
@@ -7142,8 +7142,8 @@ msgid "What kind of wallet do you want to create?"
 msgstr "你想创建什么样的钱包？"
 
 #: electrum/base_wizard.py:339
-msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
-msgstr "如果您使用管理员权限运行Electrum，就可能有用，虽然这并不是理想的做法。"
+msgid "While this is less than ideal, it might help if you run Electrum Atom as Administrator."
+msgstr "如果您使用管理员权限运行Electrum Atom，就可能有用，虽然这并不是理想的做法。"
 
 #: electrum/plugins/keepkey/qt.py:546 electrum/plugins/safe_t/qt.py:476
 #: electrum/plugins/trezor/qt.py:742
@@ -7160,16 +7160,16 @@ msgid "Within {} blocks"
 msgstr "大约在等待{} 个区块后可以确认"
 
 #: electrum/gui/qt/settings_dialog.py:117
-msgid "Without this option, Electrum will need to sync with the Lightning network on every start."
-msgstr "如果不启用这个选项，Electrum每次启动时都将需要与闪电网络同步。"
+msgid "Without this option, Electrum Atom will need to sync with the Lightning network on every start."
+msgstr "如果不启用这个选项，Electrum Atom每次启动时都将需要与闪电网络同步。"
 
 #: electrum/gui/qt/address_dialog.py:92
 msgid "Witness Script"
 msgstr "见证脚本"
 
 #: electrum/gui/qt/main_window.py:286
-msgid "Would you like to be notified when there is a newer version of Electrum available?"
-msgstr "有新版本Electrum可用时需要通知您吗？"
+msgid "Would you like to be notified when there is a newer version of Electrum Atom available?"
+msgstr "有新版本Electrum Atom可用时需要通知您吗？"
 
 #: electrum/plugins/keepkey/clientbase.py:22
 #: electrum/plugins/safe_t/clientbase.py:23
@@ -7210,8 +7210,8 @@ msgid "Yes"
 msgstr "是"
 
 #: electrum/gui/qt/update_checker.py:91
-msgid "You are already on the latest version of Electrum."
-msgstr "您已经在使用最新版Electrum。"
+msgid "You are already on the latest version of Electrum Atom."
+msgstr "您已经在使用最新版Electrum Atom。"
 
 #: electrum/gui/qt/network_dialog.py:358 electrum/gui/kivy/main.kv:481
 msgid "You are following branch"
@@ -7222,8 +7222,8 @@ msgid "You are in testnet mode."
 msgstr "你正在使用测试网模式。"
 
 #: electrum/crypto.py:204
-msgid "You are most likely using an outdated version of Electrum. Please update."
-msgstr "您很可能在使用过时的Electrum版本。请更新。"
+msgid "You are most likely using an outdated version of Electrum Atom. Please update."
+msgstr "您很可能在使用过时的Electrum Atom版本。请更新。"
 
 #: electrum/plugins/labels/labels.py:176 electrum/plugins/labels/labels.py:180
 #: electrum/plugins/payserver/qt.py:63 electrum/gui/qt/main_window.py:1127
@@ -7307,7 +7307,7 @@ msgid "You may choose to broadcast it earlier, although that would not be trustl
 msgstr "您可以选择早点广播它，即便这样并不是无需信任的（需要信任其他人不作恶）。"
 
 #: electrum/gui/qt/send_tab.py:77
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
+msgid "You may enter a Bitcoin Atom address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin Atom address)"
 msgstr "您可以输入：一个比特币地址，您联系人列表中的一个标签（输入时会有自动补全提示列表），或者一个别名（格式类似于电子邮件地址）"
 
 #: electrum/base_wizard.py:497
@@ -7347,8 +7347,8 @@ msgid "You need at least {} to open a channel."
 msgstr "要打开通道需要至少 {} 。"
 
 #: electrum/plugins/trustedcoin/qt.py:225
-msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with Electrum."
-msgstr "您需要联网才能完成钱包的创建。如果您在断网的计算机上生成了种子，请点击“{}”关闭此窗口，将您的钱包文件移至联网的计算机，然后用Electrum重新打开它。"
+msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with Electrum Atom."
+msgstr "您需要联网才能完成钱包的创建。如果您在断网的计算机上生成了种子，请点击“{}”关闭此窗口，将您的钱包文件移至联网的计算机，然后用Electrum Atom重新打开它。"
 
 #: electrum/gui/qt/main_window.py:619
 msgid "You need to configure a backup directory in your preferences"
@@ -7356,8 +7356,8 @@ msgstr "您需要在偏好设置中配置一个备份文件夹"
 
 #: electrum/plugins/keepkey/qt.py:25 electrum/plugins/safe_t/qt.py:25
 #: electrum/plugins/trezor/qt.py:25
-msgid "You need to create a separate Electrum wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
-msgstr "您需要给每一个不同的附加密码创建一个独立的Electrum钱包，每个钱包都对应不同的一组地址。修改附加密码不会导致原有钱包丢失，只要使用原有附加密码就可以找回与之对应的钱包。"
+msgid "You need to create a separate Electrum Atom wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
+msgstr "您需要给每一个不同的附加密码创建一个独立的Electrum Atom钱包，每个钱包都对应不同的一组地址。修改附加密码不会导致原有钱包丢失，只要使用原有附加密码就可以找回与之对应的钱包。"
 
 #: electrum/gui/qt/new_channel_dialog.py:45
 msgid "You need to put at least"
@@ -7430,16 +7430,16 @@ msgid "Your channels can send {}."
 msgstr "您的通道可以发送 {} 。"
 
 #: electrum/gui/qt/main_window.py:1820 electrum/gui/kivy/main_window.py:1498
-msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
+msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum Atom. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
 "If you want this wallet to have recoverable channels, you must close your existing channels and restore this wallet from seed"
-msgstr "因为你的支付通道是用旧版Electrum创建的，它们无法从密语种子恢复。这意味着你每次创建新的支付通道时，你都必须备份钱包一次。\n\n"
+msgstr "因为你的支付通道是用旧版Electrum Atom创建的，它们无法从密语种子恢复。这意味着你每次创建新的支付通道时，你都必须备份钱包一次。\n\n"
 "如果你想要这个钱包支持可恢复通道，你必须关闭所有现存的通道，然后用密语种子重新恢复出这个钱包。"
 
 #: electrum/gui/qt/main_window.py:1824 electrum/gui/kivy/main_window.py:1502
 msgid "Your channels cannot be recovered from seed. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
-"If you want to have recoverable channels, you must create a new wallet with an Electrum seed"
+"If you want to have recoverable channels, you must create a new wallet with an Electrum Atom seed"
 msgstr "无法从密语种子恢复出你的支付通道。这意味着每次你创建新通道时都需要重新备份你的钱包。\n\n"
-"如果你想要有可恢复通道，你必须用Electrum密语种子创建一个新的钱包。"
+"如果你想要有可恢复通道，你必须用Electrum Atom密语种子创建一个新的钱包。"
 
 #: electrum/gui/qml/qeswaphelper.py:403
 msgid "Your claiming transaction will be broadcast when the funding transaction is confirmed."
@@ -7447,8 +7447,8 @@ msgstr "您的认领交易将会在入资交易得到确认后被广播出去。
 
 #: electrum/plugins/keepkey/qt.py:392 electrum/plugins/safe_t/qt.py:268
 #: electrum/plugins/trezor/qt.py:534
-msgid "Your current Electrum wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
-msgstr "目前您的Electrum钱包只能使用空的附加密码。如果你设定了其他附加密码，您必须使用安装向导为其单独创建新的钱包，每个不同的附加密码都对应一组独立的地址。"
+msgid "Your current Electrum Atom wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
+msgstr "目前您的Electrum Atom钱包只能使用空的附加密码。如果你设定了其他附加密码，您必须使用安装向导为其单独创建新的钱包，每个不同的附加密码都对应一组独立的地址。"
 
 #: electrum/plugins/keepkey/keepkey.py:345
 #: electrum/plugins/safe_t/safe_t.py:315
@@ -8002,8 +8002,8 @@ msgstr "{} 个单词"
 
 #: ../gui/qml/components/About.qml:9
 msgctxt "About|"
-msgid "About Electrum"
-msgstr "关于 Electrum"
+msgid "About Electrum Atom"
+msgstr "关于 Electrum Atom"
 
 #: ../gui/qml/components/About.qml:36
 msgctxt "About|"
@@ -8047,8 +8047,8 @@ msgstr "开发者"
 
 #: ../gui/qml/components/About.qml:85
 msgctxt "About|"
-msgid "Distributed by Electrum Technologies GmbH"
-msgstr "由Electrum Technologies GmbH分发"
+msgid "Distributed by Electrum Atom Technologies GmbH"
+msgstr "由Electrum Atom Technologies GmbH分发"
 
 #: ../gui/qml/components/controls/AddressDelegate.qml:61
 msgctxt "AddressDelegate|"
@@ -8194,8 +8194,8 @@ msgstr "钱包未同步。显示出的余额可能不准确。"
 
 #: ../gui/qml/components/BalanceDetails.qml:44
 msgctxt "BalanceDetails|"
-msgid "Your wallet is not connected to an Electrum server. The displayed balance may be outdated."
-msgstr "钱包未连接至Electrum服务器。显示出的余额可能已过期。"
+msgid "Your wallet is not connected to an Electrum Atom server. The displayed balance may be outdated."
+msgstr "钱包未连接至Electrum Atom服务器。显示出的余额可能已过期。"
 
 #: ../gui/qml/components/BalanceDetails.qml:49
 msgctxt "BalanceDetails|"
@@ -8458,8 +8458,8 @@ msgstr "为避免资金丢失，请在另一台设备保存这个备份。"
 
 #: ../gui/qml/components/ChannelOpenProgressDialog.qml:123
 msgctxt "ChannelOpenProgressDialog|"
-msgid "It may be imported in another Electrum wallet with the same seed."
-msgstr "可以用相同的种子把它导入到其他Electrum钱包。"
+msgid "It may be imported in another Electrum Atom wallet with the same seed."
+msgstr "可以用相同的种子把它导入到其他Electrum Atom钱包。"
 
 #: ../gui/qml/components/Channels.qml:33
 msgctxt "Channels|"
@@ -8675,8 +8675,8 @@ msgstr "抱歉！"
 
 #: ../gui/qml/components/ExceptionDialog.qml:40
 msgctxt "ExceptionDialog|"
-msgid "Something went wrong while executing Electrum."
-msgstr "执行Electrum时出现错误。很抱歉。"
+msgid "Something went wrong while executing Electrum Atom."
+msgstr "执行Electrum Atom时出现错误。很抱歉。"
 
 #: ../gui/qml/components/ExceptionDialog.qml:44
 msgctxt "ExceptionDialog|"
@@ -9235,8 +9235,8 @@ msgstr "打开闪电网络通道"
 
 #: ../gui/qml/components/OpenChannelDialog.qml:48
 msgctxt "OpenChannelDialog|"
-msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum."
-msgstr "无法从密语种子恢复您的通道，因为密语种子是用旧版Electrum创建的。"
+msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum Atom."
+msgstr "无法从密语种子恢复您的通道，因为密语种子是用旧版Electrum Atom创建的。"
 
 #: ../gui/qml/components/OpenChannelDialog.qml:49
 #: ../gui/qml/components/OpenChannelDialog.qml:54
@@ -9256,8 +9256,8 @@ msgstr "无法从密语种子中恢复您的通道。"
 
 #: ../gui/qml/components/OpenChannelDialog.qml:56
 msgctxt "OpenChannelDialog|"
-msgid "If you want to have recoverable channels, you must create a new wallet with an Electrum seed"
-msgstr "如果您想要可恢复的通道，您必须用Electrum密语种子创建一个全新的钱包。"
+msgid "If you want to have recoverable channels, you must create a new wallet with an Electrum Atom seed"
+msgstr "如果您想要可恢复的通道，您必须用Electrum Atom密语种子创建一个全新的钱包。"
 
 #: ../gui/qml/components/OpenChannelDialog.qml:65
 msgctxt "OpenChannelDialog|"
@@ -9444,8 +9444,8 @@ msgstr "语言"
 
 #: ../gui/qml/components/Preferences.qml:58
 msgctxt "Preferences|"
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "请重启 Electrum 以激活新的图形界面设置"
+msgid "Please restart Electrum Atom to activate the new GUI settings"
+msgstr "请重启 Electrum Atom 以激活新的图形界面设置"
 
 #: ../gui/qml/components/Preferences.qml:67
 msgctxt "Preferences|"
@@ -9506,8 +9506,8 @@ msgstr "您确定吗？"
 
 #: ../gui/qml/components/Preferences.qml:260
 msgctxt "Preferences|"
-msgid "Electrum will have to download the Lightning Network graph, which is not recommended on mobile."
-msgstr "Electrum将必须下载闪电网络图，移动设备上这不被推荐。"
+msgid "Electrum Atom will have to download the Lightning Network graph, which is not recommended on mobile."
+msgstr "Electrum Atom将必须下载闪电网络图，移动设备上这不被推荐。"
 
 #: ../gui/qml/components/Preferences.qml:279
 msgctxt "Preferences|"
@@ -10137,8 +10137,8 @@ msgstr "你想怎么连接服务器？"
 
 #: ../gui/qml/components/wizard/WCAutoConnect.qml:21
 msgctxt "WCAutoConnect|"
-msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Electrum 与远程服务器通讯以获取您的交易记录和地址信息。这些服务器都能实现相同的功能，只是硬件条件各有不同。在大多数情况下，你只需要让 Electrum 随便挑一个节点，如果你有一个偏好设置，随时都可以手动选择服务器。"
+msgid "Electrum Atom communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum Atom pick one at random.  However if you prefer feel free to select a server manually."
+msgstr "Electrum Atom 与远程服务器通讯以获取您的交易记录和地址信息。这些服务器都能实现相同的功能，只是硬件条件各有不同。在大多数情况下，你只需要让 Electrum Atom 随便挑一个节点，如果你有一个偏好设置，随时都可以手动选择服务器。"
 
 #: ../gui/qml/components/wizard/WCAutoConnect.qml:33
 msgctxt "WCAutoConnect|"
@@ -10370,18 +10370,18 @@ msgstr "扫描主密钥"
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:49
 msgctxt "WCHaveSeed|"
-msgid "Electrum seeds are the default seed type."
-msgstr "默认密语种子类型是 Electrum 种子。"
+msgid "Electrum Atom seeds are the default seed type."
+msgstr "默认密语种子类型是 Electrum Atom 种子。"
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:50
 msgctxt "WCHaveSeed|"
-msgid "If you are restoring from a seed previously created by Electrum, choose this option"
-msgstr "如果您要恢复之前用Electrum创建的另一个密语种子,请选择此项"
+msgid "If you are restoring from a seed previously created by Electrum Atom, choose this option"
+msgstr "如果您要恢复之前用Electrum Atom创建的另一个密语种子,请选择此项"
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:53
 msgctxt "WCHaveSeed|"
-msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "Electrum可以导入BIP39种子，以便用户找回困在其他钱包中的资金。"
+msgid "BIP39 seeds can be imported in Electrum Atom, so that users can access funds locked in other wallets."
+msgstr "Electrum Atom可以导入BIP39种子，以便用户找回困在其他钱包中的资金。"
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:55
 msgctxt "WCHaveSeed|"
@@ -10395,8 +10395,8 @@ msgstr "BIP39种子不包含版本号，这会影响与未来软件的兼容性�
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:59
 msgctxt "WCHaveSeed|"
-msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "Electrum可以导入SLIP39密语种子，以便用户找回困在其他钱包中的资金。"
+msgid "SLIP39 seeds can be imported in Electrum Atom, so that users can access funds locked in other wallets."
+msgstr "Electrum Atom可以导入SLIP39密语种子，以便用户找回困在其他钱包中的资金。"
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:61
 msgctxt "WCHaveSeed|"
@@ -10436,7 +10436,7 @@ msgstr "种子类型"
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:170
 msgctxt "WCHaveSeed|"
-msgid "Electrum"
+msgid "Electrum Atom"
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:171
@@ -10466,7 +10466,7 @@ msgstr "输入您的自定义单词"
 
 #: ../gui/qml/components/wizard/WCImport.qml:32
 msgctxt "WCImport|"
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Bitcoin Atom addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "在列表中输入比特币地址（这将创建一个仅供监视的钱包），或者私钥。"
 
 #: ../gui/qml/components/wizard/WCImport.qml:68
@@ -10604,7 +10604,7 @@ msgstr "多重签名钱包"
 
 #: ../gui/qml/components/wizard/WCWalletType.qml:42
 msgctxt "WCWalletType|"
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Bitcoin Atom addresses or private keys"
 msgstr "导入比特币地址或私钥"
 
 #: ../gui/qml/components/WalletDetails.qml:20
@@ -10951,8 +10951,8 @@ msgstr "错误"
 
 #: ../gui/qml/components/main.qml:476
 msgctxt "main|"
-msgid "Close Electrum?"
-msgstr "关闭Electrum?"
+msgid "Close Electrum Atom?"
+msgstr "关闭Electrum Atom?"
 
 #: ../gui/qml/components/main.qml:538
 msgctxt "main|"

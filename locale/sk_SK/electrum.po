@@ -38,8 +38,8 @@ msgid "&Addresses"
 msgstr "&Adresy"
 
 #: electrum/gui/qt/main_window.py:748
-msgid "&Bitcoin Paper"
-msgstr "&Bitcoin Paper"
+msgid "&Bitcoin Atom Paper"
+msgstr "&Bitcoin Atom Paper"
 
 #: electrum/gui/qt/main_window.py:743
 msgid "&Check for updates"
@@ -283,8 +283,8 @@ msgid "About"
 msgstr "O programe"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:4
-msgid "About Electrum"
-msgstr "O aplikácii Electrum"
+msgid "About Electrum Atom"
+msgstr "O aplikácii Electrum Atom"
 
 #: electrum/plugins/trustedcoin/qt.py:256
 msgid "Accept"
@@ -318,7 +318,7 @@ msgstr "Pridať spolupodpisovateľa"
 #: electrum/gui/messages.py:12
 msgid "Add extra data to your channel funding transactions, so that a static backup can be recovered from your seed.\n\n"
 "Note that static backups only allow you to request a force-close with the remote node. This assumes that the remote node is still online, did not lose its data, and accepts to force close the channel.\n\n"
-"If this is enabled, other nodes cannot open a channel to you. Channel recovery data is encrypted, so that only your wallet can decrypt it. However, blockchain analysis will be able to tell that the transaction was probably created by Electrum."
+"If this is enabled, other nodes cannot open a channel to you. Channel recovery data is encrypted, so that only your wallet can decrypt it. However, blockchain analysis will be able to tell that the transaction was probably created by Electrum Atom."
 msgstr ""
 
 #: electrum/gui/qt/receive_tab.py:153
@@ -406,8 +406,8 @@ msgstr "Pokročilé"
 
 #: electrum/plugins/keepkey/qt.py:385 electrum/plugins/safe_t/qt.py:261
 #: electrum/plugins/trezor/qt.py:527
-msgid "After disabling passphrases, you can only pair this Electrum wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
-msgstr "Po vypnutí prístupových fráz môžete spárovať toto zariadenie s peňaženkou Electrum, iba ak mala prázdnu prístupovú frázu. Ak jej prístupová fráza nebola prázdna, budete si musieť vytvoriť novú peňaženku pomocou sprievodcu inštaláciou. Túto peňaženku môžete kedykoľvek opätovne použiť znovu zapnutím prístupových fráz a zadaním jej prístupovej frázy."
+msgid "After disabling passphrases, you can only pair this Electrum Atom wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
+msgstr "Po vypnutí prístupových fráz môžete spárovať toto zariadenie s peňaženkou Electrum Atom, iba ak mala prázdnu prístupovú frázu. Ak jej prístupová fráza nebola prázdna, budete si musieť vytvoriť novú peňaženku pomocou sprievodcu inštaláciou. Túto peňaženku môžete kedykoľvek opätovne použiť znovu zapnutím prístupových fráz a zadaním jej prístupovej frázy."
 
 #: electrum/gui/qt/channels_list.py:152
 msgid "After that delay, funds will be swept to an address derived from your wallet seed."
@@ -649,7 +649,7 @@ msgid "BIP39 seed"
 msgstr "Seed BIP39"
 
 #: electrum/gui/qt/seed_dialog.py:96
-msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgid "BIP39 seeds can be imported in Electrum Atom, so that users can access funds locked in other wallets."
 msgstr "Seedy BIP39 možno importovať do Electra, aby používatelia mali prístup k prostriedkom uzamknutým v iných peňaženkách."
 
 #: electrum/gui/qt/seed_dialog.py:98
@@ -730,8 +730,8 @@ msgid "Batch unconfirmed transactions"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:792
-msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
-msgstr "Pred nahlásením chyby upgradujte na najnovšiu verziu aplikácie Electrum (posledné vydanie alebo git HEAD) a uveďte číslo jej verzie vo svojom hlásení."
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum Atom (latest release or git HEAD), and include the version number in your report."
+msgstr "Pred nahlásením chyby upgradujte na najnovšiu verziu aplikácie Electrum Atom (posledné vydanie alebo git HEAD) a uveďte číslo jej verzie vo svojom hlásení."
 
 #: electrum/gui/qt/history_list.py:644
 msgid "Begin"
@@ -750,17 +750,17 @@ msgid "BitBox02 Status"
 msgstr "Status BitBox02"
 
 #: electrum/gui/qt/send_tab.py:620
-msgid "Bitcoin Address is None"
-msgstr "Nebola zadaná Bitcoin Adresa"
+msgid "Bitcoin Atom Address is None"
+msgstr "Nebola zadaná Bitcoin Atom Adresa"
 
 #: electrum/gui/qt/receive_tab.py:215 electrum/gui/qt/receive_tab.py:291
 #: electrum/gui/qt/request_list.py:203
-msgid "Bitcoin URI"
+msgid "Bitcoin Atom URI"
 msgstr ""
 
 #: electrum/gui/qt/confirm_tx_dialog.py:684
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Transakcie Bitcoinov všeobecne nie sú bezplatné. Poplatok za transakciu platí odosielateľ peňažných prostriedkov."
+msgid "Bitcoin Atom transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transakcie Bitcoin Atomov všeobecne nie sú bezplatné. Poplatok za transakciu platí odosielateľ peňažných prostriedkov."
 
 #: electrum/gui/qt/locktimeedit.py:38
 msgid "Block height"
@@ -1069,7 +1069,7 @@ msgid "Channels in database."
 msgstr "Kanály v databáze."
 
 #: electrum/gui/qt/settings_dialog.py:136
-msgid "Check our online documentation if you want to configure Electrum as a watchtower."
+msgid "Check our online documentation if you want to configure Electrum Atom as a watchtower."
 msgstr ""
 
 #: electrum/plugins/trustedcoin/qt.py:320
@@ -1479,16 +1479,16 @@ msgid "Connection strings must be in <node_pubkey>@<host>:<port> format"
 msgstr "Reťazce pripojenia musia byť vo formáte <node_pubkey>@<host>:<port>"
 
 #: electrum/gui/kivy/main.kv:445
-msgid "Connections with Electrum servers"
-msgstr "Pripojenia k serverom Electrum"
+msgid "Connections with Electrum Atom servers"
+msgstr "Pripojenia k serverom Electrum Atom"
 
 #: electrum/gui/kivy/uix/ui_screens/lightning.kv:16
 msgid "Connections with lightning nodes"
 msgstr "Pripojenia na lightning uzly"
 
 #: electrum/network.py:215 electrum/network.py:223 electrum/network.py:231
-msgid "Consider trying to connect to a different server, or updating Electrum."
-msgstr "Zvážte pokúsiť sa pripojiť na iný server alebo aktualizovať aplikáciu Electrum."
+msgid "Consider trying to connect to a different server, or updating Electrum Atom."
+msgstr "Zvážte pokúsiť sa pripojiť na iný server alebo aktualizovať aplikáciu Electrum Atom."
 
 #: electrum/gui/text.py:102
 msgid "Contacts"
@@ -1849,7 +1849,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Chyba komunikácie zariadenia. Odpojte a znovu zapojte váš Digital Bitbox."
 
 #: electrum/plugins/ledger/ledger.py:872
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Bitcoin Atom mode"
 msgstr "Zariadenie nie je v bitcoinovom režime"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1888,8 +1888,8 @@ msgid "Display your seed?"
 msgstr "Zobraziť váš seed?"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
-msgid "Distributed by Electrum Technologies GmbH"
-msgstr "Distribuuje Electrum Technologies GmbH"
+msgid "Distributed by Electrum Atom Technologies GmbH"
+msgstr "Distribuuje Electrum Atom Technologies GmbH"
 
 #: electrum/base_crash_reporter.py:65
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
@@ -1975,7 +1975,7 @@ msgid "Downloading input data..."
 msgstr ""
 
 #: electrum/gui/qt/installwizard.py:56
-msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
+msgid "Due to a bug, old versions of Electrum Atom will NOT be creating the same wallet as newer versions or other software."
 msgstr "Kvôli chybe staré verzie Electra NEbudú vytvárať rovnakú peňaženku ako novšie verzie alebo iný softvér."
 
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:577
@@ -2015,79 +2015,79 @@ msgid "Edit {}"
 msgstr "Upraviť {}"
 
 #: electrum/gui/qt/seed_dialog.py:74
-msgid "Electrum"
+msgid "Electrum Atom"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2599
-msgid "Electrum Plugins"
-msgstr "Pluginy programu Electrum"
+msgid "Electrum Atom Plugins"
+msgstr "Pluginy programu Electrum Atom"
 
 #: electrum/plugin.py:588
-msgid "Electrum cannot pair with your {}.\n\n"
+msgid "Electrum Atom cannot pair with your {}.\n\n"
 "Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
-msgstr "Electrum nie je možné spárovať s vaším zariadením {}.\n\n"
+msgstr "Electrum Atom nie je možné spárovať s vaším zariadením {}.\n\n"
 "Predtým, ako požiadate o zaslanie bitcoinov na adresy v tejto peňaženke, uistite sa, že párovanie vášho zariadenia funguje alebo že máte jeho seed (a prístupovú frázu, ak existuje). Inak nubudete môcť minúť žiadne bitcoiny, ktoré obdržíte."
 
 #: electrum/gui/qt/installwizard.py:733
 #: electrum/gui/kivy/uix/ui_screens/first_screen.kv:16
-msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Electrum komunikuje so vzdialenými servermi za účelom získavania informácií o vašich transakciách a adresách. Servery majú ten istý účel, iba sa líšia po hardvérovej stránke. Vo väčšine prípadov budete zrejme chcieť prenechať ich výber na aplikácii Electrum. Avšak môžete si zvoliť server aj manuálne, ak si to želáte."
+msgid "Electrum Atom communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum Atom pick one at random.  However if you prefer feel free to select a server manually."
+msgstr "Electrum Atom komunikuje so vzdialenými servermi za účelom získavania informácií o vašich transakciách a adresách. Servery majú ten istý účel, iba sa líšia po hardvérovej stránke. Vo väčšine prípadov budete zrejme chcieť prenechať ich výber na aplikácii Electrum Atom. Avšak môžete si zvoliť server aj manuálne, ak si to želáte."
 
 #: electrum/gui/qt/network_dialog.py:271
-msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
-msgstr "Electrum sa pripája k niekoľkým uzlom, aby stiahol hlavičky blokov a vyhľadal najdlhší blockchain."
+msgid "Electrum Atom connects to several nodes in order to download block headers and find out the longest blockchain."
+msgstr "Electrum Atom sa pripája k niekoľkým uzlom, aby stiahol hlavičky blokov a vyhľadal najdlhší blockchain."
 
 #: electrum/gui/qt/main_window.py:722
-msgid "Electrum preferences"
-msgstr "Nastavenia programu Electrum"
+msgid "Electrum Atom preferences"
+msgstr "Nastavenia programu Electrum Atom"
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:9
-msgid "Electrum requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
-msgstr "Electrum si vyžiadava históriu transakcií z jedného servera. Vrátená história sa porovná s hlavičkami blockchainu odoslanými inými uzlami s použitím jednoduchého overenia transakcií (SPV)."
+msgid "Electrum Atom requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
+msgstr "Electrum Atom si vyžiadava históriu transakcií z jedného servera. Vrátená história sa porovná s hlavičkami blockchainu odoslanými inými uzlami s použitím jednoduchého overenia transakcií (SPV)."
 
 #: electrum/gui/qt/network_dialog.py:293
-msgid "Electrum sends your wallet addresses to a single server, in order to receive your transaction history."
-msgstr "Electrum odosiela adresy vašich peňaženiek na server, aby mohol získať históriu vašich transakcií."
+msgid "Electrum Atom sends your wallet addresses to a single server, in order to receive your transaction history."
+msgstr "Electrum Atom odosiela adresy vašich peňaženiek na server, aby mohol získať históriu vašich transakcií."
 
 #: electrum/gui/messages.py:44
-msgid "Electrum uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
+msgid "Electrum Atom uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
 msgstr ""
 
 #: electrum/gui/qt/installwizard.py:239
-msgid "Electrum wallet"
-msgstr "Peňaženka Electrum"
+msgid "Electrum Atom wallet"
+msgstr "Peňaženka Electrum Atom"
 
 #: electrum/gui/qt/main_window.py:624
-msgid "Electrum was unable to copy your wallet file to the specified location."
-msgstr "Electrum nedokázal skopírovať súbor s vašou peaňzenkou do uvedeného umiestnenia."
+msgid "Electrum Atom was unable to copy your wallet file to the specified location."
+msgstr "Electrum Atom nedokázal skopírovať súbor s vašou peaňzenkou do uvedeného umiestnenia."
 
 #: electrum/plugins/cosigner_pool/qt.py:274
 #: electrum/gui/qt/transaction_dialog.py:386
-msgid "Electrum was unable to deserialize the transaction:"
+msgid "Electrum Atom was unable to deserialize the transaction:"
 msgstr "Electru sa nepodarilo deserializovať transakciu:"
 
 #: electrum/gui/qt/main_window.py:2211
-msgid "Electrum was unable to open your transaction file"
-msgstr "Electrum nemohol otvoriť súbor vašich transakcií"
+msgid "Electrum Atom was unable to open your transaction file"
+msgstr "Electrum Atom nemohol otvoriť súbor vašich transakcií"
 
 #: electrum/gui/qt/main_window.py:2160
-msgid "Electrum was unable to parse your transaction"
-msgstr "Electrum nedokázal spracovať vašu transakciu"
+msgid "Electrum Atom was unable to parse your transaction"
+msgstr "Electrum Atom nedokázal spracovať vašu transakciu"
 
 #: electrum/gui/qt/main_window.py:2370
-msgid "Electrum was unable to produce a private key-export."
-msgstr "Electrum nemohol vytvoriť export súkromného kľúča."
+msgid "Electrum Atom was unable to produce a private key-export."
+msgstr "Electrum Atom nemohol vytvoriť export súkromného kľúča."
 
 #: electrum/gui/qt/history_list.py:859
-msgid "Electrum was unable to produce a transaction export."
-msgstr "Electrum nemohol vytvoriť export transakcií."
+msgid "Electrum Atom was unable to produce a transaction export."
+msgstr "Electrum Atom nemohol vytvoriť export transakcií."
 
 #: electrum/gui/qt/main_window.py:2801
-msgid "Electrum will now exit."
-msgstr "Electrum sa teraz zavrie."
+msgid "Electrum Atom will now exit."
+msgstr "Electrum Atom sa teraz zavrie."
 
 #: electrum/gui/qt/main_window.py:766
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum Atom's focus is speed, with low resource usage and simplifying Bitcoin Atom."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1838
@@ -2230,7 +2230,7 @@ msgid "Enter a label to name your device:"
 msgstr "Pre pomenovanie vášho zariadenia zadajte menovku:"
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Bitcoin Atom addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "Zadajte zoznam bitcoinových adries (vytvorí sa peňaženka len na čítanie) alebo zoznam súkromných kľúčov."
 
 #: electrum/gui/qt/send_tab.py:789
@@ -2474,8 +2474,8 @@ msgid "Estimate"
 msgstr "Odhad"
 
 #: electrum/gui/qt/__init__.py:210
-msgid "Exit Electrum"
-msgstr "Ukončiť Electrum"
+msgid "Exit Electrum Atom"
+msgstr "Ukončiť Electrum Atom"
 
 #: electrum/gui/kivy/uix/screens.py:592
 msgid "Expiration date"
@@ -2661,7 +2661,7 @@ msgid "Firmware Version"
 msgstr "Verzia firmvéru"
 
 #: electrum/plugins/ledger/ledger.py:57
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgid "Firmware version (or \"Bitcoin Atom\" app) too old for Segwit support. Please update at"
 msgstr "Verzia firmvéru (alebo „bitcoinovej“ apky) je príliš stará pre podporu Segwitu. Prosím, aktualizujte ho na"
 
 #: electrum/plugins/trezor/qt.py:424
@@ -2706,8 +2706,8 @@ msgid "For scanning QR codes."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:285
-msgid "For security reasons we advise that you always use the latest version of Electrum."
-msgstr "Z bezpečnostných dôvodov vám odporúčame vždy používať najnovšiu verziu Electrum."
+msgid "For security reasons we advise that you always use the latest version of Electrum Atom."
+msgstr "Z bezpečnostných dôvodov vám odporúčame vždy používať najnovšiu verziu Electrum Atom."
 
 #: electrum/gui/qt/channels_list.py:273
 msgid "Force-close"
@@ -2941,16 +2941,16 @@ msgstr "IP/port vo formáte:\n"
 "[host]:[port]"
 
 #: electrum/gui/qt/network_dialog.py:284
-msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain."
-msgstr "Ak je automatické pripájanie povolené, Electrum vždy použije server, ktorý je na najdlhšej reťazi blokov."
+msgid "If auto-connect is enabled, Electrum Atom will always use a server that is on the longest blockchain."
+msgstr "Ak je automatické pripájanie povolené, Electrum Atom vždy použije server, ktorý je na najdlhšej reťazi blokov."
 
 #: electrum/gui/qt/confirm_tx_dialog.py:429
 msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
 msgstr "Ak je zapnuté, môžete kvôli tomu prísť pri jednej transakcii o max. 100 satoshi."
 
 #: electrum/gui/qt/network_dialog.py:285
-msgid "If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging."
-msgstr "Ak je vypnuté, musíte si vybrať server, ktorý chcete používať. V prípade, že váš server bude zaostávať, Electrum vás na to upozorní."
+msgid "If it is disabled, you have to choose a server you want to use. Electrum Atom will warn you if your server is lagging."
+msgstr "Ak je vypnuté, musíte si vybrať server, ktorý chcete používať. V prípade, že váš server bude zaostávať, Electrum Atom vás na to upozorní."
 
 #: electrum/gui/messages.py:20
 msgid "If this option is checked, your client will complete reverse swaps before the funding transaction is confirmed.\n\n"
@@ -3060,11 +3060,11 @@ msgid "Import"
 msgstr "Importovať"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
+msgid "Import Bitcoin Atom Addresses"
 msgstr "Importovať bitcoinové adresy"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Bitcoin Atom addresses or private keys"
 msgstr "Importovať bitcoinové adresy alebo súkromné kľúče"
 
 #: electrum/gui/kivy/main_window.py:1465
@@ -3117,7 +3117,7 @@ msgstr "V niektorých prípadoch použite až 3 adresy pre výdavok, aby sa mohl
 
 #: electrum/gui/qt/channels_list.py:177
 #: electrum/gui/qml/qechanneldetails.py:232
-msgid "In the Electrum mobile app, use the 'Send' button to scan this QR code."
+msgid "In the Electrum Atom mobile app, use the 'Send' button to scan this QR code."
 msgstr ""
 
 #: electrum/simple_config.py:554
@@ -3228,15 +3228,15 @@ msgstr "Neplatná suma"
 
 #: electrum/plugins/hw_wallet/plugin.py:129
 #: electrum/gui/kivy/uix/screens.py:361
-msgid "Invalid Bitcoin Address"
+msgid "Invalid Bitcoin Atom Address"
 msgstr "Neplatná bitcoinová adresa"
 
 #: electrum/gui/stdio.py:186 electrum/gui/text.py:622
-msgid "Invalid Bitcoin address"
+msgid "Invalid Bitcoin Atom address"
 msgstr "Neplatná bitcoinová adresa"
 
 #: electrum/gui/qt/main_window.py:2000 electrum/gui/qt/main_window.py:2028
-msgid "Invalid Bitcoin address."
+msgid "Invalid Bitcoin Atom address."
 msgstr "Neplatná bitcoinová adresa."
 
 #: electrum/gui/stdio.py:196
@@ -3561,7 +3561,7 @@ msgid "Lightning is not available for this wallet."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1754 electrum/gui/kivy/main_window.py:1510
-msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
+msgid "Lightning is not enabled because this wallet was created with an old version of Electrum Atom. Create lightning keys?"
 msgstr ""
 
 #: electrum/gui/kivy/main_window.py:751
@@ -3586,7 +3586,7 @@ msgid "Lightning payments require finding a path through the Lightning Network. 
 msgstr ""
 
 #: electrum/gui/messages.py:40
-msgid "Lightning support in Electrum is experimental. Do not put large amounts in lightning channels."
+msgid "Lightning support in Electrum Atom is experimental. Do not put large amounts in lightning channels."
 msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:35
@@ -3696,8 +3696,8 @@ msgid "Make sure you install it with python3"
 msgstr "Uistite sa, že ho inštalujete pomocou python3"
 
 #: electrum/gui/qt/main_window.py:547
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Predtým, ako požiadate o zaslanie Bitcoinov do tejto peňaženky, sa uistite, že vlastníte seedovú frázu alebo súkromné kľúče."
+msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoin Atoms to be sent to this wallet."
+msgstr "Predtým, ako požiadate o zaslanie Bitcoin Atomov do tejto peňaženky, sa uistite, že vlastníte seedovú frázu alebo súkromné kľúče."
 
 #: electrum/plugins/coldcard/qt.py:136
 msgid "Master Fingerprint"
@@ -4652,8 +4652,8 @@ msgid "Please report this issue manually"
 msgstr "Nahláste tento problém manuálne"
 
 #: electrum/gui/qt/main_window.py:2561
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "Prosím reštartujte program Electrum pre uplatnenie zmien v nastavení GUI"
+msgid "Please restart Electrum Atom to activate the new GUI settings"
+msgstr "Prosím reštartujte program Electrum Atom pre uplatnenie zmien v nastavení GUI"
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:1108
 msgid "Please retype your seed phrase, to confirm that you properly saved it"
@@ -4665,7 +4665,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Zapíšte si týchto {0} slov na papier (poradie je dôležité). "
 
 #: electrum/gui/kivy/uix/screens.py:334
-msgid "Please scan a Bitcoin address or a payment request"
+msgid "Please scan a Bitcoin Atom address or a payment request"
 msgstr "Naskenujte bitcoinovú adresu alebo žiadosť o platbu"
 
 #: electrum/gui/qt/main_window.py:601
@@ -4702,8 +4702,8 @@ msgid "Please wait"
 msgstr "Čakajte, prosím"
 
 #: electrum/gui/qt/update_checker.py:94
-msgid "Please wait while Electrum checks for available updates."
-msgstr "Prosím, počkajte, kým Electrum vyhľadá dostupné aktualizácie."
+msgid "Please wait while Electrum Atom checks for available updates."
+msgstr "Prosím, počkajte, kým Electrum Atom vyhľadá dostupné aktualizácie."
 
 #: electrum/gui/stdio.py:222 electrum/gui/qt/main_window.py:1138
 #: electrum/gui/qt/installwizard.py:168 electrum/gui/qt/installwizard.py:593
@@ -4881,8 +4881,8 @@ msgid "Proxy mode"
 msgstr "Režim proxy"
 
 #: electrum/gui/qt/network_dialog.py:260
-msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
-msgstr "Nastavenia proxy sa vzťahujú na všetky pripojenia: k serverom Electrum, ale aj k službám tretích strán."
+msgid "Proxy settings apply to all connections: with Electrum Atom servers, but also with third-party services."
+msgstr "Nastavenia proxy sa vzťahujú na všetky pripojenia: k serverom Electrum Atom, ale aj k službám tretích strán."
 
 #: electrum/gui/qt/network_dialog.py:236
 msgid "Proxy user"
@@ -5237,7 +5237,7 @@ msgid "SLIP39 seed"
 msgstr ""
 
 #: electrum/gui/qt/seed_dialog.py:104
-msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgid "SLIP39 seeds can be imported in Electrum Atom, so that users can access funds locked in other wallets."
 msgstr ""
 
 #: electrum/gui/qt/seed_dialog.py:272
@@ -5273,8 +5273,8 @@ msgid "Save to file"
 msgstr ""
 
 #: electrum/plugins/labels/__init__.py:5
-msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electrum."
-msgstr "Uložte vaše menovky peňaženky na vzdialenom serveri a synchronizujte ich naprieč viacerými zariadeniami, na ktorých používate Electrum."
+msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electrum Atom."
+msgstr "Uložte vaše menovky peňaženky na vzdialenom serveri a synchronizujte ich naprieč viacerými zariadeniami, na ktorých používate Electrum Atom."
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:150
 msgid "Scan"
@@ -5532,7 +5532,7 @@ msgid "Share #{} is not part of the current set."
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:232
-msgid "Share Bitcoin Request"
+msgid "Share Bitcoin Atom Request"
 msgstr "Zdieľať žiadosť o bitcoiny"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
@@ -5700,8 +5700,8 @@ msgid "Some shares are invalid."
 msgstr ""
 
 #: electrum/base_crash_reporter.py:59
-msgid "Something went wrong while executing Electrum."
-msgstr "Pri vykonávaní aplikácie Electrum sa vyskytla chyba."
+msgid "Something went wrong while executing Electrum Atom."
+msgstr "Pri vykonávaní aplikácie Electrum Atom sa vyskytla chyba."
 
 #: electrum/base_crash_reporter.py:60
 msgid "Sorry!"
@@ -5732,7 +5732,7 @@ msgid "Standard wallet"
 msgstr "Štandardná peňaženka"
 
 #: electrum/gui/qt/main_window.py:769
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin Atom system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:187
@@ -5871,7 +5871,7 @@ msgid "Testnet coins are worthless."
 msgstr "Testnetové mince sú bezcenné."
 
 #: electrum/gui/qt/main_window.py:564
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgid "Testnet is separate from the main Bitcoin Atom network. It is used for testing."
 msgstr "Testnet funfuje nezávisle od hlavnej bitcoinovej siete a využíva sa na testovanie."
 
 #: electrum/gui/qt/main_window.py:1502
@@ -5943,7 +5943,7 @@ msgstr "Ak nebudete mať v peňaženke dostatok prostriedkov, suma bude zobrazen
 
 #: electrum/gui/qt/receive_tab.py:194
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "Bitcoinová adresa nikdy nevyprší a bude vždy súčasťou tejto peňaženky electrum."
+msgstr "Bitcoin Atomová adresa nikdy nevyprší a bude vždy súčasťou tejto peňaženky electrum."
 
 #: electrum/gui/qt/channels_list.py:426
 msgid "The channel peer can route Trampoline payments."
@@ -5952,7 +5952,7 @@ msgstr ""
 #: electrum/gui/messages.py:34
 msgid "The channel you created is not recoverable from seed.\n"
 "To prevent fund losses, please save this backup on another device.\n"
-"It may be imported in another Electrum wallet with the same seed."
+"It may be imported in another Electrum Atom wallet with the same seed."
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:98
@@ -6023,8 +6023,8 @@ msgid "The next step will generate the seed of your wallet.  This seed will NOT 
 msgstr "V ďalšom kroku sa vytvorí seed vašej peňaženky. Tento sa NEuloží vo vašom počítači a musí sa uchovať na papieri. Ak sa chcete ochrániť pred malvérom, bude lepšie, keď to urobíte na offline počítači a neskôr presuniete svoju peňaženku na online počítač."
 
 #: electrum/gui/qt/main_window.py:1993
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Operácia je nedefinovaná. Nielen v Electrum, ale vo všeobecnosti."
+msgid "The operation is undefined. Not just in Electrum Atom, but in general."
+msgstr "Operácia je nedefinovaná. Nielen v Electrum Atom, ale vo všeobecnosti."
 
 #: electrum/wallet.py:2182 electrum/wallet.py:2236
 msgid "The output value remaining after fee is too low."
@@ -6086,9 +6086,9 @@ msgid "The transaction was rejected because it is too large (in bytes)."
 msgstr "Transakcia bola odmietnutá pretože je príliš veľká (v bajtoch)."
 
 #: electrum/gui/qt/installwizard.py:367
-msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n\n"
+msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum Atom 2.7.\n\n"
 "Do you want to split your wallet into multiple files?"
-msgstr "Peňaženka „{}“ obsahuje niekoľko účtov, ktoré už viac nie sú podporované od verzie Electrum 2.7.\n\n"
+msgstr "Peňaženka „{}“ obsahuje niekoľko účtov, ktoré už viac nie sú podporované od verzie Electrum Atom 2.7.\n\n"
 "Chcete rozdeliť vašu peňaženku na niekoľko súborov?"
 
 #: electrum/plugins/bitbox02/bitbox02.py:592
@@ -6254,7 +6254,7 @@ msgid "This may result in large QR codes"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:546
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend Bitcoin Atoms with it."
 msgstr "Znamená to, že nebudete môcť minúť bitcoiny, ktoré obsahuje."
 
 #: electrum/gui/qt/confirm_tx_dialog.py:428
@@ -6449,8 +6449,8 @@ msgid "To set the amount to 'max', use the '!' special character."
 msgstr ""
 
 #: electrum/gui/qt/confirm_tx_dialog.py:189
-msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
-msgstr "Pre istú ochranu vášho súkromia sa Electrum snaží tvoriť výdavok s presnosťou podobnou iným výstupom."
+msgid "To somewhat protect your privacy, Electrum Atom tries to create change with similar precision to other outputs."
+msgstr "Pre istú ochranu vášho súkromia sa Electrum Atom snaží tvoriť výdavok s presnosťou podobnou iným výstupom."
 
 #: electrum/base_wizard.py:335
 msgid "To trigger a rescan, press 'Next'."
@@ -6805,8 +6805,8 @@ msgid "Update check failed"
 msgstr "Kontrola aktualizácií zlyhala"
 
 #: electrum/gui/qt/main_window.py:295
-msgid "Update to Electrum {} is available"
-msgstr "Je k dispozícii aktualizácia Electrum {}"
+msgid "Update to Electrum Atom {} is available"
+msgstr "Je k dispozícii aktualizácia Electrum Atom {}"
 
 #: electrum/plugins/coldcard/qt.py:153
 msgid "Upgrade"
@@ -6975,8 +6975,8 @@ msgid "WARNING: the alias \"{}\" could not be validated via an additional securi
 msgstr "UPOZORNENIE: Alias „{}“ sa nepodarilo overiť prostredníctvom ďalšej kontroly zabezpečenia, DNSSEC, a teda nemusí byť správny."
 
 #: electrum/gui/qt/installwizard.py:46
-msgid "WIF keys are typed in Electrum, based on script type."
-msgstr "Kľúče WIF sa zadávajú v aplikácii Electrum podľa typu skriptu."
+msgid "WIF keys are typed in Electrum Atom, based on script type."
+msgstr "Kľúče WIF sa zadávajú v aplikácii Electrum Atom podľa typu skriptu."
 
 #: electrum/plugins/trustedcoin/qt.py:80
 msgid "Waiting for TrustedCoin server to sign transaction..."
@@ -7112,7 +7112,7 @@ msgid "Watchtower"
 msgstr "Pozorovateľňa"
 
 #: electrum/gui/qt/seed_dialog.py:99
-msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum Atom."
 msgstr "Negarantujeme, že importy BIP39 budú v Electre vždy podporované."
 
 #: electrum/base_wizard.py:368
@@ -7124,8 +7124,8 @@ msgid "What kind of wallet do you want to create?"
 msgstr "Aký typ peňaženky chcete vytvoriť?"
 
 #: electrum/base_wizard.py:339
-msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
-msgstr "Hoci to nie je zďaleka ideálne, môže pomôcť, ak spustíš Electrum ako Správca."
+msgid "While this is less than ideal, it might help if you run Electrum Atom as Administrator."
+msgstr "Hoci to nie je zďaleka ideálne, môže pomôcť, ak spustíš Electrum Atom ako Správca."
 
 #: electrum/plugins/keepkey/qt.py:546 electrum/plugins/safe_t/qt.py:476
 #: electrum/plugins/trezor/qt.py:742
@@ -7142,7 +7142,7 @@ msgid "Within {} blocks"
 msgstr "V {} blokoch"
 
 #: electrum/gui/qt/settings_dialog.py:117
-msgid "Without this option, Electrum will need to sync with the Lightning network on every start."
+msgid "Without this option, Electrum Atom will need to sync with the Lightning network on every start."
 msgstr ""
 
 #: electrum/gui/qt/address_dialog.py:92
@@ -7150,8 +7150,8 @@ msgid "Witness Script"
 msgstr "Svedecký skript"
 
 #: electrum/gui/qt/main_window.py:286
-msgid "Would you like to be notified when there is a newer version of Electrum available?"
-msgstr "Chceli by ste dostávať oznámenia, keď je k dispozícii novšia verzia Electrum?"
+msgid "Would you like to be notified when there is a newer version of Electrum Atom available?"
+msgstr "Chceli by ste dostávať oznámenia, keď je k dispozícii novšia verzia Electrum Atom?"
 
 #: electrum/plugins/keepkey/clientbase.py:22
 #: electrum/plugins/safe_t/clientbase.py:23
@@ -7192,8 +7192,8 @@ msgid "Yes"
 msgstr "Áno"
 
 #: electrum/gui/qt/update_checker.py:91
-msgid "You are already on the latest version of Electrum."
-msgstr "Už máte najnovšiu verziu Electrum."
+msgid "You are already on the latest version of Electrum Atom."
+msgstr "Už máte najnovšiu verziu Electrum Atom."
 
 #: electrum/gui/qt/network_dialog.py:358 electrum/gui/kivy/main.kv:481
 msgid "You are following branch"
@@ -7204,8 +7204,8 @@ msgid "You are in testnet mode."
 msgstr "Ste v testovacom režime."
 
 #: electrum/crypto.py:204
-msgid "You are most likely using an outdated version of Electrum. Please update."
-msgstr "Pravdepodobne používate zastaranú verziu aplikácie Electrum. Prosím, aktualizujte ju."
+msgid "You are most likely using an outdated version of Electrum Atom. Please update."
+msgstr "Pravdepodobne používate zastaranú verziu aplikácie Electrum Atom. Prosím, aktualizujte ju."
 
 #: electrum/plugins/labels/labels.py:176 electrum/plugins/labels/labels.py:180
 #: electrum/plugins/payserver/qt.py:63 electrum/gui/qt/main_window.py:1127
@@ -7289,8 +7289,8 @@ msgid "You may choose to broadcast it earlier, although that would not be trustl
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:77
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Môžete vložiť Bitcoin adresu, menov zo zoznamu kontaktov (bude ponúknutý zoznam pre doplnenie), alebo alias (ako keby emailová adresa ktorá odkazuje na adresu Bitcoin)"
+msgid "You may enter a Bitcoin Atom address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin Atom address)"
+msgstr "Môžete vložiť Bitcoin Atom adresu, menov zo zoznamu kontaktov (bude ponúknutý zoznam pre doplnenie), alebo alias (ako keby emailová adresa ktorá odkazuje na adresu Bitcoin Atom)"
 
 #: electrum/base_wizard.py:497
 msgid "You may extend your seed with custom words."
@@ -7329,8 +7329,8 @@ msgid "You need at least {} to open a channel."
 msgstr ""
 
 #: electrum/plugins/trustedcoin/qt.py:225
-msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with Electrum."
-msgstr "Pre dokončenie tvorby peňaženky musíte byť online. Ak ste vygenerovali seed na offline počítači, kliknite na „{}“ pre zatvorenie tohto okna, presuňte súbor s peňaženkou na online počítač a znova ho otvorte v aplikácii Electrum."
+msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with Electrum Atom."
+msgstr "Pre dokončenie tvorby peňaženky musíte byť online. Ak ste vygenerovali seed na offline počítači, kliknite na „{}“ pre zatvorenie tohto okna, presuňte súbor s peňaženkou na online počítač a znova ho otvorte v aplikácii Electrum Atom."
 
 #: electrum/gui/qt/main_window.py:619
 msgid "You need to configure a backup directory in your preferences"
@@ -7338,8 +7338,8 @@ msgstr "Vo svojich predvoľbách musíte nakonfigurovať adresár zálohy"
 
 #: electrum/plugins/keepkey/qt.py:25 electrum/plugins/safe_t/qt.py:25
 #: electrum/plugins/trezor/qt.py:25
-msgid "You need to create a separate Electrum wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
-msgstr "Pre každú prístupovú frázu musíte vytvoriť samostatnú peňaženku Electrum, keďže každá fráza generuje odlišné adresy. Zmenou prístupovej frázy neprídete o ostatné peňaženky; každá z nich bude naďalej k dispozícii so svojou vlastnou prístupovou frázou."
+msgid "You need to create a separate Electrum Atom wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
+msgstr "Pre každú prístupovú frázu musíte vytvoriť samostatnú peňaženku Electrum Atom, keďže každá fráza generuje odlišné adresy. Zmenou prístupovej frázy neprídete o ostatné peňaženky; každá z nich bude naďalej k dispozícii so svojou vlastnou prístupovou frázou."
 
 #: electrum/gui/qt/new_channel_dialog.py:45
 msgid "You need to put at least"
@@ -7410,13 +7410,13 @@ msgid "Your channels can send {}."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1820 electrum/gui/kivy/main_window.py:1498
-msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
+msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum Atom. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
 "If you want this wallet to have recoverable channels, you must close your existing channels and restore this wallet from seed"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1824 electrum/gui/kivy/main_window.py:1502
 msgid "Your channels cannot be recovered from seed. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
-"If you want to have recoverable channels, you must create a new wallet with an Electrum seed"
+"If you want to have recoverable channels, you must create a new wallet with an Electrum Atom seed"
 msgstr ""
 
 #: electrum/gui/qml/qeswaphelper.py:403
@@ -7425,8 +7425,8 @@ msgstr ""
 
 #: electrum/plugins/keepkey/qt.py:392 electrum/plugins/safe_t/qt.py:268
 #: electrum/plugins/trezor/qt.py:534
-msgid "Your current Electrum wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
-msgstr "Vašu súčasnú peňaženku Electrum možno používať iba s prázdnou prístupovou frázou. Pre iné prístupové frázy si musíte vytvoriť samostatnú peňaženku pomocou sprievodcu inštaláciou, keďže každá prístupová fráza generuje novú množinu adries."
+msgid "Your current Electrum Atom wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
+msgstr "Vašu súčasnú peňaženku Electrum Atom možno používať iba s prázdnou prístupovou frázou. Pre iné prístupové frázy si musíte vytvoriť samostatnú peňaženku pomocou sprievodcu inštaláciou, keďže každá prístupová fráza generuje novú množinu adries."
 
 #: electrum/plugins/keepkey/keepkey.py:345
 #: electrum/plugins/safe_t/safe_t.py:315
@@ -7980,8 +7980,8 @@ msgstr "{} slov"
 
 #: ../gui/qml/components/About.qml:9
 msgctxt "About|"
-msgid "About Electrum"
-msgstr "O aplikácii Electrum"
+msgid "About Electrum Atom"
+msgstr "O aplikácii Electrum Atom"
 
 #: ../gui/qml/components/About.qml:36
 msgctxt "About|"
@@ -8025,8 +8025,8 @@ msgstr ""
 
 #: ../gui/qml/components/About.qml:85
 msgctxt "About|"
-msgid "Distributed by Electrum Technologies GmbH"
-msgstr "Distribuuje Electrum Technologies GmbH"
+msgid "Distributed by Electrum Atom Technologies GmbH"
+msgstr "Distribuuje Electrum Atom Technologies GmbH"
 
 #: ../gui/qml/components/controls/AddressDelegate.qml:61
 msgctxt "AddressDelegate|"
@@ -8172,7 +8172,7 @@ msgstr ""
 
 #: ../gui/qml/components/BalanceDetails.qml:44
 msgctxt "BalanceDetails|"
-msgid "Your wallet is not connected to an Electrum server. The displayed balance may be outdated."
+msgid "Your wallet is not connected to an Electrum Atom server. The displayed balance may be outdated."
 msgstr ""
 
 #: ../gui/qml/components/BalanceDetails.qml:49
@@ -8436,7 +8436,7 @@ msgstr ""
 
 #: ../gui/qml/components/ChannelOpenProgressDialog.qml:123
 msgctxt "ChannelOpenProgressDialog|"
-msgid "It may be imported in another Electrum wallet with the same seed."
+msgid "It may be imported in another Electrum Atom wallet with the same seed."
 msgstr ""
 
 #: ../gui/qml/components/Channels.qml:33
@@ -8653,8 +8653,8 @@ msgstr "Prepáčte!"
 
 #: ../gui/qml/components/ExceptionDialog.qml:40
 msgctxt "ExceptionDialog|"
-msgid "Something went wrong while executing Electrum."
-msgstr "Pri vykonávaní aplikácie Electrum sa vyskytla chyba."
+msgid "Something went wrong while executing Electrum Atom."
+msgstr "Pri vykonávaní aplikácie Electrum Atom sa vyskytla chyba."
 
 #: ../gui/qml/components/ExceptionDialog.qml:44
 msgctxt "ExceptionDialog|"
@@ -9213,7 +9213,7 @@ msgstr ""
 
 #: ../gui/qml/components/OpenChannelDialog.qml:48
 msgctxt "OpenChannelDialog|"
-msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum."
+msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum Atom."
 msgstr ""
 
 #: ../gui/qml/components/OpenChannelDialog.qml:49
@@ -9234,7 +9234,7 @@ msgstr ""
 
 #: ../gui/qml/components/OpenChannelDialog.qml:56
 msgctxt "OpenChannelDialog|"
-msgid "If you want to have recoverable channels, you must create a new wallet with an Electrum seed"
+msgid "If you want to have recoverable channels, you must create a new wallet with an Electrum Atom seed"
 msgstr ""
 
 #: ../gui/qml/components/OpenChannelDialog.qml:65
@@ -9422,8 +9422,8 @@ msgstr "Jazyk"
 
 #: ../gui/qml/components/Preferences.qml:58
 msgctxt "Preferences|"
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "Prosím reštartujte program Electrum pre uplatnenie zmien v nastavení GUI"
+msgid "Please restart Electrum Atom to activate the new GUI settings"
+msgstr "Prosím reštartujte program Electrum Atom pre uplatnenie zmien v nastavení GUI"
 
 #: ../gui/qml/components/Preferences.qml:67
 msgctxt "Preferences|"
@@ -9483,7 +9483,7 @@ msgstr ""
 
 #: ../gui/qml/components/Preferences.qml:260
 msgctxt "Preferences|"
-msgid "Electrum will have to download the Lightning Network graph, which is not recommended on mobile."
+msgid "Electrum Atom will have to download the Lightning Network graph, which is not recommended on mobile."
 msgstr ""
 
 #: ../gui/qml/components/Preferences.qml:279
@@ -10114,8 +10114,8 @@ msgstr ""
 
 #: ../gui/qml/components/wizard/WCAutoConnect.qml:21
 msgctxt "WCAutoConnect|"
-msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Electrum komunikuje so vzdialenými servermi za účelom získavania informácií o vašich transakciách a adresách. Servery majú ten istý účel, iba sa líšia po hardvérovej stránke. Vo väčšine prípadov budete zrejme chcieť prenechať ich výber na aplikácii Electrum. Avšak môžete si zvoliť server aj manuálne, ak si to želáte."
+msgid "Electrum Atom communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum Atom pick one at random.  However if you prefer feel free to select a server manually."
+msgstr "Electrum Atom komunikuje so vzdialenými servermi za účelom získavania informácií o vašich transakciách a adresách. Servery majú ten istý účel, iba sa líšia po hardvérovej stránke. Vo väčšine prípadov budete zrejme chcieť prenechať ich výber na aplikácii Electrum Atom. Avšak môžete si zvoliť server aj manuálne, ak si to želáte."
 
 #: ../gui/qml/components/wizard/WCAutoConnect.qml:33
 msgctxt "WCAutoConnect|"
@@ -10347,17 +10347,17 @@ msgstr ""
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:49
 msgctxt "WCHaveSeed|"
-msgid "Electrum seeds are the default seed type."
+msgid "Electrum Atom seeds are the default seed type."
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:50
 msgctxt "WCHaveSeed|"
-msgid "If you are restoring from a seed previously created by Electrum, choose this option"
+msgid "If you are restoring from a seed previously created by Electrum Atom, choose this option"
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:53
 msgctxt "WCHaveSeed|"
-msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgid "BIP39 seeds can be imported in Electrum Atom, so that users can access funds locked in other wallets."
 msgstr "Seedy BIP39 možno importovať do Electra, aby používatelia mali prístup k prostriedkom uzamknutým v iných peňaženkách."
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:55
@@ -10372,7 +10372,7 @@ msgstr "Seedy BIP39 neobsahujú číslo verzie, čo ohrozuje kompatibilitu s bud
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:59
 msgctxt "WCHaveSeed|"
-msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgid "SLIP39 seeds can be imported in Electrum Atom, so that users can access funds locked in other wallets."
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:61
@@ -10413,7 +10413,7 @@ msgstr "Typ seedu"
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:170
 msgctxt "WCHaveSeed|"
-msgid "Electrum"
+msgid "Electrum Atom"
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCHaveSeed.qml:171
@@ -10443,7 +10443,7 @@ msgstr ""
 
 #: ../gui/qml/components/wizard/WCImport.qml:32
 msgctxt "WCImport|"
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Bitcoin Atom addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "Zadajte zoznam bitcoinových adries (vytvorí sa peňaženka len na čítanie) alebo zoznam súkromných kľúčov."
 
 #: ../gui/qml/components/wizard/WCImport.qml:68
@@ -10581,7 +10581,7 @@ msgstr "Viacpodpisová peňaženka"
 
 #: ../gui/qml/components/wizard/WCWalletType.qml:42
 msgctxt "WCWalletType|"
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Bitcoin Atom addresses or private keys"
 msgstr "Importovať bitcoinové adresy alebo súkromné kľúče"
 
 #: ../gui/qml/components/WalletDetails.qml:20
@@ -10928,7 +10928,7 @@ msgstr "Chyba"
 
 #: ../gui/qml/components/main.qml:476
 msgctxt "main|"
-msgid "Close Electrum?"
+msgid "Close Electrum Atom?"
 msgstr ""
 
 #: ../gui/qml/components/main.qml:538
