@@ -1091,9 +1091,8 @@ msgid "Child Pays for Parent"
 msgstr "Anak membayar untuk orang tua"
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:200
-msgid "Child pays\n"
-"for parent"
-msgstr "Anak membayar\n"
+msgid "Child pays for parent"
+msgstr "Anak membayar"
 
 #: electrum/gui/qt/history_list.py:799
 msgid "Child pays for parent"

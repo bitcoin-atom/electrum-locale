@@ -1136,8 +1136,8 @@ msgid "Choose an account to restore."
 msgstr "เลือกบัญชีที่จะกู้คืน"
 
 #: electrum/gui/qt/settings_dialog.py:251
-msgid "Choose coin (UTXO) selection method.  The following are available:\n\n"
-msgstr "เลือกเหรียญ (UTXO) วิธีการเลือก. มีดังต่อไปนี้: \\ n \\ n"
+msgid "Choose coin (UTXO) selection method.  The following are available:"
+msgstr "เลือกเหรียญ (UTXO) วิธีการเลือก. มีดังต่อไปนี้: "
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:30
 msgid "Choose from peers"

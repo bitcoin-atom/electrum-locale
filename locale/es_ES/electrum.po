@@ -2012,7 +2012,7 @@ msgstr "Añadir tiempo de bloqueo"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:392
 msgid "Edit fees manually"
-msgstr "Editar comisiones manualmente\n"
+msgstr "Editar comisiones manualmente"
 ""
 
 #: electrum/gui/qt/address_list.py:300 electrum/gui/qt/contact_list.py:95
@@ -8382,7 +8382,7 @@ msgstr "Congelar"
 #: ../gui/qml/components/ChannelDetails.qml:239
 msgctxt "ChannelDetails|"
 msgid "n/a (channel not open)"
-msgstr "n/a (canal sin abrir)\n"
+msgstr "n/a (canal sin abrir)"
 ""
 
 #: ../gui/qml/components/ChannelDetails.qml:206

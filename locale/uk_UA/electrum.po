@@ -494,8 +494,7 @@ msgstr ""
 
 #: electrum/gui/qt/transaction_dialog.py:851
 msgid "Amount received in channels"
-msgstr "\n"
-"Сума, отримана в каналах"
+msgstr "Сума, отримана в каналах"
 
 #: electrum/gui/qt/transaction_dialog.py:799
 msgid "Amount received:"
@@ -9948,8 +9947,7 @@ msgstr ""
 #: ../gui/qml/components/TxDetails.qml:82
 msgctxt "TxDetails|"
 msgid "Amount received in channels"
-msgstr "\n"
-"Сума, отримана в каналах"
+msgstr "Сума, отримана в каналах"
 
 #: ../gui/qml/components/TxDetails.qml:83
 msgctxt "TxDetails|"

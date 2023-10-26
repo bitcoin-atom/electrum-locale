@@ -9465,7 +9465,7 @@ msgstr "法定货币"
 #: ../gui/qml/components/Preferences.qml:140
 msgctxt "Preferences|"
 msgid "Historic rates"
-msgstr "历史手续费率\n"
+msgstr "历史手续费率"
 ""
 
 #: ../gui/qml/components/Preferences.qml:146
