@@ -1094,10 +1094,6 @@ msgstr "Anak membayar untuk orang tua"
 msgid "Child pays for parent"
 msgstr "Anak membayar"
 
-#: electrum/gui/qt/history_list.py:799
-msgid "Child pays for parent"
-msgstr "Anak membayar untuk orang tua"
-
 #: electrum/i18n.py:116
 msgid "Chinese Simplified"
 msgstr "Mandarin Sederhana"
